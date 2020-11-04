@@ -1,0 +1,2182 @@
+#
+# Translators:
+# Wolforg <contact@wolforg.eu>, 2015
+# ExtremRaym <extremraym@yahoo.fr>, 2014
+# flayks, 2015
+# Franck, 2015
+# FX Bénard <fxb@wp-translations.org>, 2015
+# FX Bénard <fxb@wp-translations.org>, 2013-2015
+# Jean-Christophe Brebion <pro@jcbrebion.com>, 2014
+# Patricia BT, 2014
+# Sébastien Grillot <sebastien@insidedaweb.fr>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-TopBar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-09-05 08:17-0700\n"
+"PO-Revision-Date: 2015-09-25 16:43-1000\n"
+"Last-Translator: Franck\n"
+"Language-Team: French (France) (http://www.transifex.com/wp-translations/wp-topbar/language/fr_FR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: /Users/bob/Dropbox/MyPlugins/wp-topbar (trunk)\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/wp-topbar-admin-debug.php:35
+msgid "Admin Debug Page"
+msgstr "Page de débogage admin"
+
+#: lib/wp-topbar-admin-debug.php:38
+msgid "This page contains various settings to help the author debug the Plugin."
+msgstr "Cette page contient différents réglages pour aider l'auteur à déboguer l'extension."
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:47 lib/wp-topbar-network-admin.php:258 lib/wp-topbar-settings-tab.php:165
+msgid "Server/Install Info"
+msgstr "Info serveur/installation"
+
+#: lib/wp-topbar-admin-debug.php:102
+msgid "Server Check"
+msgstr "Contrôle serveur"
+
+#: lib/wp-topbar-admin-debug.php:107
+msgid "fopen setting is "
+msgstr "Le paramètre fopen est"
+
+#: lib/wp-topbar-admin-debug.php:107
+msgid "ON"
+msgstr "OUI"
+
+#: lib/wp-topbar-admin-debug.php:109
+msgid "fopen setting is"
+msgstr "Le paramètre fopen est"
+
+#: lib/wp-topbar-admin-debug.php:109
+msgid "OFF"
+msgstr "NON"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:126
+msgid "Database/Column Check"
+msgstr "Vérification Base de données/Colonne"
+
+#: lib/wp-topbar-admin-debug.php:135
+msgid "Table Check"
+msgstr "Contrôle de table"
+
+#: lib/wp-topbar-admin-debug.php:151
+msgid "Options Check"
+msgstr "Contrôle d'options"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:179
+msgid "Global Settings Check"
+msgstr "Vérifications des réglages principaux"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:180 lib/wp-topbar-settings-tab.php:45
+msgid "Rotate TopBars"
+msgstr "Rotation entre les TopBars"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:181 lib/wp-topbar-settings-tab.php:67
+msgid "Rotation Display Time"
+msgstr "Temps d'affichage de la rotation"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:182 lib/wp-topbar-settings-tab.php:57
+msgid "Rotation Start Delay"
+msgstr "Délai de départ de la rotation"
+
+#: lib/wp-topbar-admin-debug.php:183
+msgid "Rotation Order"
+msgstr "Ordre de rotation"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:184 lib/wp-topbar-settings-tab.php:77
+msgid "Rotation Count"
+msgstr "Nombre de rotation"
+
+#: lib/wp-topbar-admin-debug.php:185
+msgid "Rotation Hide Last"
+msgstr "Cacher la dernière de la rotation"
+
+#: lib/wp-topbar-admin-debug.php:186
+msgid "Custom Samples Path"
+msgstr "Chemin des exemples personnalisés"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:191 lib/wp-topbar-debug-tab.php:45 lib/wp-topbar-display-functions.php:149
+msgid "Time Check"
+msgstr "Vérification de l'heure"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:196
+msgid "Server Timezone"
+msgstr "Fuseau horaire du serveur"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:197
+msgid "Current Time"
+msgstr "Heure actuelle"
+
+#: lib/wp-topbar-admin-debug.php:198
+msgid "Current Time (GMT)"
+msgstr "Heure actuelle (GMT)"
+
+#: lib/wp-topbar-admin-debug.php:199
+msgid "WordPress GMT Offset"
+msgstr "Décalage GMT WordPress"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin-debug.php:202
+msgid "Multisite Check"
+msgstr "Vérification multisite"
+
+# @ wp-topbar
+#: lib/wp-topbar-admin.php:30
+#, php-format
+msgid "WP TopBar settings need to be updated.  Please go to the <a href=\"%s\">plugin admin page</a> to update the settings."
+msgstr "Les réglages de WP TopBar doivent être mis à jour. S'il vous plaît rendez-vous sur la <a href=\"%s\">page d'administration de l'extension</a> pour le faire."
+
+# @ wp-topbar
+#: lib/wp-topbar-admin.php:357
+msgid "Inserted default row."
+msgstr "Rang inséré par défaut."
+
+#: lib/wp-topbar-all-tab.php:34
+msgid "All Options"
+msgstr "Toutes les options"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:40 lib/wp-topbar-display-functions.php:615 lib/wp-topbar-display-functions.php:945 lib/wp-topbar-display-functions.php:951 lib/wp-topbar-main-tab.php:40
+msgid "Priority"
+msgstr "Priorité"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:46 lib/wp-topbar-main-tab.php:46
+msgid "Enter the relative priority (1 to 100) for the TopBar to show.  A higher number means this TopBar will be selected more frequently; a lower number means less frequently.  (See the FAQ for more details.) Default is <code>25</code>."
+msgstr "Entrez la priorité relative (1-100) pour la TopBar à afficher. Un nombre plus élevé signifie cette TopBar sera choisie plus fréquemment; un nombre inférieur signifie moins fréquemment. (Voir la FAQ pour plus de détails.) Par défaut c'est <code>25</code>."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:53 lib/wp-topbar-main-tab.php:53
+msgid "TopBar Location"
+msgstr "Emplacement de la TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:57 lib/wp-topbar-main-tab.php:56
+msgid "Above Header"
+msgstr "Au dessus de l'en-tête"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:58 lib/wp-topbar-main-tab.php:57
+msgid "Below Footer"
+msgstr "En-dessous du pied de page"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:61 lib/wp-topbar-main-tab.php:61
+msgid "Select where you want to TopBar to be located. Default is <code>Above Header</code>"
+msgstr "Sélectionnez l'endroit où vous souhaitez que la TopBar apparaisse. Par défaut c'est <code>Above Header</code>"
+
+#: lib/wp-topbar-all-tab.php:67 lib/wp-topbar-main-tab.php:67
+msgid "Force TopBar to Be Fixed On Top of Page"
+msgstr "Forcer TopBar à rester fixée en haut de page"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:71 lib/wp-topbar-all-tab.php:178 lib/wp-topbar-all-tab.php:208 lib/wp-topbar-all-tab.php:222 lib/wp-topbar-all-tab.php:246 lib/wp-topbar-close-tab.php:104 lib/wp-topbar-close-tab.php:118 lib/wp-topbar-close-tab.php:143 lib/wp-topbar-close-tab.php:267 lib/wp-topbar-close-tab.php:281 lib/wp-topbar-close-tab.php:305 lib/wp-topbar-display-functions.php:141 lib/wp-topbar-main-tab.php:70 lib/wp-topbar-network-admin.php:227 lib/wp-topbar-settings-tab.php:48 lib/wp-topbar-settings-tab.php:90 lib/wp-topbar-textbar-tab.php:116
+msgid "Yes"
+msgstr "Oui"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:72 lib/wp-topbar-all-tab.php:179 lib/wp-topbar-all-tab.php:209 lib/wp-topbar-all-tab.php:223 lib/wp-topbar-all-tab.php:247 lib/wp-topbar-close-tab.php:105 lib/wp-topbar-close-tab.php:119 lib/wp-topbar-close-tab.php:144 lib/wp-topbar-close-tab.php:268 lib/wp-topbar-close-tab.php:282 lib/wp-topbar-close-tab.php:306 lib/wp-topbar-display-functions.php:142 lib/wp-topbar-main-tab.php:71 lib/wp-topbar-network-admin.php:228 lib/wp-topbar-settings-tab.php:49 lib/wp-topbar-settings-tab.php:91 lib/wp-topbar-textbar-tab.php:117
+msgid "No"
+msgstr "Non"
+
+#: lib/wp-topbar-all-tab.php:74 lib/wp-topbar-main-tab.php:75
+msgid "This will force the TopBar to be fixed to the top of the page, regardless of what you put in the Custom CSS settings. For non-scrolling TopBars, this option will also push down your page to ensure the TopBar is always at the top of the page.  This option is ignored if you are Rotating TopBars.  Default is <code>No</code>"
+msgstr "Cela forcera la TopBar à rester fixée en haut de page, indépendamment de ce que vous mettrez dans les paramètres CSS personnalisés. Pour des TopBars non-défilantes, cette option poussera également votre page vers le bas pour s'assurer que la TopBar soit toujours en haut de la page. Cette option est ignorée si vous avez choisi des TopBars tournantes. Par défaut c'est <code>Non</code>."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:81 lib/wp-topbar-main-tab.php:82
+msgid "Scroll Action"
+msgstr "Action de défilement"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:85 lib/wp-topbar-main-tab.php:85 lib/wp-topbar-settings-tab.php:137
+msgid "On"
+msgstr "Oui"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:86 lib/wp-topbar-main-tab.php:86 lib/wp-topbar-settings-tab.php:138
+msgid "Off"
+msgstr "Non"
+
+#: lib/wp-topbar-all-tab.php:88
+msgid "Only show the TopBar when the user scrolls the page?  If the user scrolls back to the top of the page, the TopBar gracefully fades away.  Note, if this is to On, the TopBar ignores the Display Time value below.</br></br>Also, <strong>it works best</strong> when the Forced Fixed Option (above) is turned <code>On</code> or the CSS has the <code>position</code> fixed: e.g. <code>position:fixed; top: 40; padding:0; margin:0; width: 100%; z-index: 99999;</code>.</br></br>Default is <code>Off</code>, this will show the scrollbar even if the user does not scroll the page.  See:"
+msgstr "Ne montrer seulement la TopBar que lorsque l'utilisateur fait défiler la page&nbsp;? Si l'utilisateur fait défiler vers le haut de la page, la TopBar s'estompe gracieusement. Remarque, si c'est sur Oui, la TopBar ignore la valeur de la durée d'affichage ci-dessous.</br></br>Aussi, <strong>Cela fonctionne mieux</strong> lorsque l'option Fixe forcé (ci-dessus) est sur <code>On</code> ou que le CSS a une <code>position</ code> fixe&nbsp;: par exemple, <code>position:fixed; top: 40; padding:0; margin:0; width: 100%; z-index: 99999;</code>.</br></br>. Par défaut c'est <code>Off</code>, cela montrera la barre de défilement même si l'utilisateur ne défile pas la page.Voir&nbsp;:"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:92 lib/wp-topbar-main-tab.php:94
+msgid "Scroll Amount"
+msgstr "Quantité de défilement"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:97 lib/wp-topbar-main-tab.php:100
+msgid "This option allows you to adjust how far the user has to scroll the page before the Scrollable TopBar appears.   Selecting 0 (zero) will display the TopBar immediately after the user scrolls the page.</br></br>Default is <code>0</code>."
+msgstr "Cette option vous permet d'ajuster dans quelle mesure l'utilisateur doit faire défiler la page pour que la TopBar déroulante apparaisse. Sélectionner 0 (zéro) affichera la TopBar immédiatement après que l'utilisateur ait fait défiler la page.</br></br>La valeur par défaut est <code>0</code>."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:104 lib/wp-topbar-main-tab.php:107
+msgid "Start Delay"
+msgstr "Départ différé"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:109 lib/wp-topbar-main-tab.php:113
+msgid "Enter the amount of time (in milliseconds) for the TopBar to delay before appearing.  Enter 0 for no delay."
+msgstr "Entrez le temps (en millisecondes) avant que la TopBar n'apparaisse sur la page. Entrez 0 pour aucun retard."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:113 lib/wp-topbar-main-tab.php:117
+msgid "Slide Time"
+msgstr "Temps d'apparition"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:118 lib/wp-topbar-main-tab.php:123
+msgid "Enter the amount of time (in milliseconds) for the TopBar to take to slide down on the page.  Enter 0 for no delay."
+msgstr "Entrez le temps nécessaire (en millisecondes) à la TopBar pour glisser vers le bas sur la page. Entrez 0 pour aucun retard."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:122 lib/wp-topbar-main-tab.php:127
+msgid "Display Time"
+msgstr "Afficher le temps"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:127
+msgid "Enter the amount of time (in milliseconds) for the TopBar to remain on the page.  Enter 0 for the TopBar to not disappear."
+msgstr "Entrez le temps (en millisecondes) pendant lequel la TopBar doit rester sur la page. Entrez 0 pour que la TopBar disparaisse pas."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:134 lib/wp-topbar-textbar-tab.php:72
+msgid "Message"
+msgstr "Message"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:143 lib/wp-topbar-textbar-tab.php:81
+msgid "Link Text"
+msgstr "Texte du lien"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:149 lib/wp-topbar-social-tab.php:87 lib/wp-topbar-textbar-tab.php:87
+msgid "Link"
+msgstr "Lien"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:155 lib/wp-topbar-social-tab.php:91 lib/wp-topbar-textbar-tab.php:93
+msgid "Link Target"
+msgstr "Cible du lien"
+
+#: lib/wp-topbar-all-tab.php:164 lib/wp-topbar-social-tab.php:38 lib/wp-topbar-textbar-tab.php:102
+msgid "Select how you want the link to open"
+msgstr "Sélectionner comment vous souhaitez ouvrir les liens."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:165 lib/wp-topbar-social-tab.php:39 lib/wp-topbar-textbar-tab.php:103
+msgid "Opens the linked document in a new window or tab (this is default)"
+msgstr "Ouvre le document lié dans une nouvelle fenêtre ou un nouvel onglet (par défaut)"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:166 lib/wp-topbar-social-tab.php:40 lib/wp-topbar-textbar-tab.php:104
+msgid "Opens the linked document in the same frame as it was clicked"
+msgstr "Ouvre le document lié dans le même cadre que celui où l'on a cliqué"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:167 lib/wp-topbar-social-tab.php:41 lib/wp-topbar-textbar-tab.php:105
+msgid "Opens the linked document in the parent frame"
+msgstr "Ouvre le document lié dans le cadre parent"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:168 lib/wp-topbar-social-tab.php:42 lib/wp-topbar-textbar-tab.php:106
+msgid "Opens the linked document in the full body of the windowtext to align."
+msgstr "Ouvre le document lié dans le corps de la fenêtre de texte à aligner."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:175 lib/wp-topbar-textbar-tab.php:113
+msgid "Enable image"
+msgstr "Activer l'image"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:184 lib/wp-topbar-textbar-tab.php:122
+msgid "Image URL"
+msgstr "Adresse web de l&rsquo;image"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:187 lib/wp-topbar-all-tab.php:290 lib/wp-topbar-all-tab.php:316 lib/wp-topbar-close-tab.php:349 lib/wp-topbar-close-tab.php:375 lib/wp-topbar-textbar-tab.php:125
+msgid "Upload Image"
+msgstr "Envoyer une image"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:188 lib/wp-topbar-textbar-tab.php:126
+msgid "Enter an URL or upload an image for the TopBar"
+msgstr "Entrer une URL ou charger une image pour la TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:196 lib/wp-topbar-css-tab.php:105
+msgid "Enter CSS Option C Here"
+msgstr "Saisissez le CSS Option C ici"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:205 lib/wp-topbar-close-tab.php:101 lib/wp-topbar-close-tab.php:264
+msgid "Allow TopBar to be closed by user"
+msgstr "Permettre à la TopBar d'être fermée par l'utilisateur"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:212 lib/wp-topbar-close-tab.php:108 lib/wp-topbar-close-tab.php:271
+msgid "Allows the user to close the TopBar.  Default is <code>No</code>"
+msgstr "Permet à l'utilisateur de fermer la TopBar. La valeur par défaut est <code>Non</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:219 lib/wp-topbar-close-tab.php:115 lib/wp-topbar-close-tab.php:278
+msgid "Allow the TopBar to be reopened"
+msgstr "Permettre à la TopBar d'être rouverte"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:226 lib/wp-topbar-close-tab.php:122 lib/wp-topbar-close-tab.php:285
+msgid "This allows the user to close and reopen the TopBar.  Default is <code>No</code>"
+msgstr "Permet à l'utilisateur de fermer et de ré-ouvrir la TopBar. La valeur par défaut est <code>Non</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:230 lib/wp-topbar-close-tab.php:126 lib/wp-topbar-close-tab.php:289
+msgid "Re-openable TopBar should start Open or Closed"
+msgstr "La TopBar ré-ouvrable doit commencée ouverte ou fermée"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:233 lib/wp-topbar-close-tab.php:129 lib/wp-topbar-close-tab.php:292
+msgid "Open"
+msgstr "Ouverte"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:234 lib/wp-topbar-close-tab.php:130 lib/wp-topbar-close-tab.php:293
+msgid "Closed"
+msgstr "Fermée"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:237 lib/wp-topbar-close-tab.php:133 lib/wp-topbar-close-tab.php:296
+msgid "Sets how the Re-openable TopBar is displayed to the user -- as opened or closed.  Default is <code>Open</code>"
+msgstr "Définir comment la TopBar ré-ouvrable est affichée à l'utilisateur -- soit ouverte ou fermée. Par défaut elle est <code>ouverte</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:243 lib/wp-topbar-close-tab.php:140 lib/wp-topbar-close-tab.php:302
+msgid "Enable Cookies"
+msgstr "Activer les cookies"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:250 lib/wp-topbar-close-tab.php:148 lib/wp-topbar-close-tab.php:309
+msgid "Enable use of cookies to control TopBar behavior. This is not used if the TopBar can be re=opened. Default is <code>No</code>"
+msgstr "Activer l'utilisation des cookies pour controler le comportement de la TopBar. Ce n'est pas utilisé si la TopBar peut être ré-ouverte. La valeur par défaut est <code>Non</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:257 lib/wp-topbar-close-tab.php:155 lib/wp-topbar-close-tab.php:316
+msgid "Cookie Value"
+msgstr "Valeur du cookie"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:262 lib/wp-topbar-close-tab.php:321
+msgid "Your previous cookie value was"
+msgstr "La valeur précédente de votre cookie était"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:266
+msgid "Change this value to force the cookie to reshow.  Default is <code>1</code>"
+msgstr "Changer cette valeur pour forcer le cookie d'être ré-affiché. La valeur par défaut est <code>1</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:267 lib/wp-topbar-close-tab.php:326
+msgid "See the:"
+msgstr "Voir la :"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:267 lib/wp-topbar-close-tab.php:326 lib/wp-topbar-display-functions.php:21 lib/wp-topbar-display-functions.php:23 lib/wp-topbar-display-functions.php:88 wp-topbar.php:273 wp-topbar.php:289
+msgid "FAQ"
+msgstr "FAQ"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:274 lib/wp-topbar-close-tab.php:166 lib/wp-topbar-close-tab.php:333
+msgid "Enter the CSS for the Close Button"
+msgstr "Entrer le CSS pour le bouton Fermer"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:278 lib/wp-topbar-all-tab.php:304 lib/wp-topbar-close-tab.php:170 lib/wp-topbar-close-tab.php:195 lib/wp-topbar-close-tab.php:337 lib/wp-topbar-close-tab.php:363
+msgid "Default is"
+msgstr "Par défaut est"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:285 lib/wp-topbar-close-tab.php:177 lib/wp-topbar-close-tab.php:344
+msgid "Close Button Image URL"
+msgstr "URL de l'image du bouton Fermer"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:293 lib/wp-topbar-close-tab.php:184 lib/wp-topbar-close-tab.php:352
+msgid "Enter a URL or upload an image for the close button on the TopBar."
+msgstr "Entrer une URL ou charger une image pour le bouton Fermer de la TopBar."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:300 lib/wp-topbar-close-tab.php:191 lib/wp-topbar-close-tab.php:359
+msgid "Enter the CSS for the Reopen Button"
+msgstr "Entrer le CSS pour le bouton Réouvrir"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:311 lib/wp-topbar-close-tab.php:202 lib/wp-topbar-close-tab.php:370
+msgid "Reopen Button Image URL"
+msgstr "URL de l'image du bouton Réouvrir"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:319 lib/wp-topbar-close-tab.php:209 lib/wp-topbar-close-tab.php:378
+msgid "Enter a URL or upload an image for the re-open button on the TopBar."
+msgstr "Entrer une URL ou charger une image pour le bouton de ré-ouverture de la TopBar."
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:328 lib/wp-topbar-close-tab.php:386 lib/wp-topbar-color-tab.php:100 lib/wp-topbar-color-tab.php:203 lib/wp-topbar-control-tab.php:282 lib/wp-topbar-css-tab.php:173 lib/wp-topbar-main-tab.php:220 lib/wp-topbar-network-admin.php:243 lib/wp-topbar-php-tab.php:150 lib/wp-topbar-settings-tab.php:153 lib/wp-topbar-social-tab.php:150 lib/wp-topbar-textbar-tab.php:134
+msgid "Update Settings"
+msgstr "Mise à jour des réglages"
+
+# @ wp-topbar
+#: lib/wp-topbar-all-tab.php:331 lib/wp-topbar-close-tab.php:220 lib/wp-topbar-close-tab.php:389 lib/wp-topbar-color-tab.php:103 lib/wp-topbar-color-tab.php:206 lib/wp-topbar-control-tab.php:285 lib/wp-topbar-css-tab.php:176 lib/wp-topbar-debug-tab.php:100 lib/wp-topbar-main-tab.php:223 lib/wp-topbar-network-admin.php:246 lib/wp-topbar-php-tab.php:153 lib/wp-topbar-settings-tab.php:154 lib/wp-topbar-social-tab.php:153 lib/wp-topbar-textbar-tab.php:137
+msgid "Back to Top"
+msgstr "En haut"
+
+# @ wp-topbar
+#: lib/wp-topbar-close-tab.php:88 lib/wp-topbar-close-tab.php:251 lib/wp-topbar-display-functions.php:21 lib/wp-topbar-display-functions.php:23 wp-topbar.php:273
+msgid "Close Button"
+msgstr "Bouton fermer"
+
+# @ wp-topbar
+#: lib/wp-topbar-close-tab.php:91
+msgid "These are the settings to allow the user to close the TopBar.<br><br>This plugin can use a cookie to remember if the user closed the TopBar.   If you enable cookies, then a cookie is created if the user closes the TopBar.  If the value stored in the cookie matches the Cookie Value (below), then the TopBar will not be shown on subsequent page views.  If you disable the use of cookies, then the plugin will delete the users cookies the next time the page is loaded.<br><br>To have a consistent user experience, <strong>ALL</strong> TopBars need to use the same settings."
+msgstr "Voici les paramètres qui permettent à l'utilisateur de fermer la TopBar.<br><br>Cette extension peut utiliser un cookie pour se souvenir si l'utilisateur a fermé la TopBar. Si vous activez les cookies, alors un cookie sera utilisé quand un utilisateur ferme la TopBar. Si la valeur enregistrée dans le cookie correspond à la Cookie Value (ci-dessous), alors la TopBar ne sera pas affichée sur les pages suivantes. Si vous désactivez l'utilisation des cookies, alors l'extension va supprimer les cookies utilisateurs la prochaine fois que la page sera chargée.<br><br>Pour que l'utilisateur navigue de manière consistante, <strong>TOUTES</strong> les TopBars doivent utiliser les mêmes paramètres."
+
+#: lib/wp-topbar-close-tab.php:159 lib/wp-topbar-close-tab.php:325
+msgid "Change this value to force the cookie to reshow - if you are using a Caching Plugin, you might need to flush your Cache.  Default is <code>1</code>"
+msgstr "Changer cette valeur pour forcer le cookie a être ré-affiché. Si vous utilisez une extension de cache, vous devrez sans doute nettoyer votre cache. La valeur par défaut est <code>1</code>."
+
+# @ wp-topbar
+#: lib/wp-topbar-close-tab.php:217
+msgid "Replace ALL Close Button Settings"
+msgstr "Remplacer TOUS les réglages du bouton Fermer"
+
+# @ wp-topbar
+#: lib/wp-topbar-close-tab.php:254
+msgid "These are the settings to allow the user to close the TopBar.<br><br>This plugin can use a cookie to remember if the user closed the TopBar.   If you enable cookies, then a cookie is created if the user closes the TopBar.  If the value stored in the cookie matches the Cookie Value (below), then the TopBar will not be shown on subsequent page views.  If you disable the use of cookies, then the plugin will delete the users cookies the next time the page is loaded.<br><br>To be used effectively, <strong>ALL</strong> TopBars must use the same settings. Use this batch option to set all TopBars to the same settings:"
+msgstr "Voici les paramètres qui permettent à l'utilisateur de fermer la TopBar.<br><br>Cette extension peut utiliser un cookie pour se souvenir si l'utilisateur a fermé la TopBar. Si vous activez les cookies, alors un cookie sera utilisé quand un utilisateur ferme la TopBar. Si la valeur enregistrée dans le cookie correspond à la Cookie Value (ci-dessous), alors la TopBar ne sera pas affichée sur les pages suivantes. Si vous désactivez l'utilisation des cookies, alors l'extension va supprimer les cookies utilisateurs la prochaine fois que la page sera chargée.<br><br>Pour que l'utilisateur navigue de manière consistante, <strong>TOUTES</strong> les TopBars doivent utiliser les mêmes paramètres. Utilisez cette option globale pour mettre toutes les TopBars aux mêmes paramètres."
+
+# @ wp-topbar
+#: lib/wp-topbar-close-tab.php:256 lib/wp-topbar-debug-tab.php:59 lib/wp-topbar-display-functions.php:313 lib/wp-topbar-display-functions.php:316 lib/wp-topbar-display-functions.php:332 lib/wp-topbar-display-functions.php:335 lib/wp-topbar-display-functions.php:338 lib/wp-topbar-display-functions.php:341 lib/wp-topbar-display-functions.php:344 lib/wp-topbar-display-functions.php:347
+msgid "Close Button tab"
+msgstr "Onglet du bouton fermer"
+
+# @ wp-topbar
+#: lib/wp-topbar-color-tab.php:65 lib/wp-topbar-color-tab.php:164
+msgid "Color Selection"
+msgstr "Sélection de couleur"
+
+# @ wp-topbar
+#: lib/wp-topbar-color-tab.php:68 lib/wp-topbar-color-tab.php:167
+msgid "Click the color box to select the color to use."
+msgstr "Cliquer la boite de couleurs pour sélectionner la couleur à utiliser."
+
+# @ wp-topbar
+#: lib/wp-topbar-color-tab.php:72 lib/wp-topbar-color-tab.php:171
+msgid "Color of the Bar"
+msgstr "Couleur de la barre"
+
+# @ wp-topbar
+#: lib/wp-topbar-color-tab.php:78 lib/wp-topbar-color-tab.php:178
+msgid "Color of the bottom border of the Bar"
+msgstr "Couleur du bord inférieur de la barre"
+
+# @ wp-topbar
+#: lib/wp-topbar-color-tab.php:84 lib/wp-topbar-color-tab.php:185
+msgid "Color of the Message"
+msgstr "Couleur du message"
+
+# @ wp-topbar
+#: lib/wp-topbar-color-tab.php:90 lib/wp-topbar-color-tab.php:192
+msgid "Color of the Link"
+msgstr "Couleur du lien"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:30
+msgid "Control Options"
+msgstr "Options de contrôle"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:32
+msgid "These are the options that allow you to control whether your TopBar will be shown (based on time, category, logged in users, etc.)."
+msgstr "Ce sont les options qui vous permettent de contrôler l'affichage de votre TopBar (basé sur le temps, catégorie, utilisateurs connectés, etc..)."
+
+#: lib/wp-topbar-control-tab.php:33
+msgid "NOTE: The options are generally processed in the order show on the screen.   The first criteria that excludes a page/post from showing will cause the TopBar to stop checking other criteria."
+msgstr "REMARQUE&nbsp;: Les options sont généralement traitées dans l'ordre affiché sur l'écran. Le premier critère qui exclue une page / article de l'affichage provoquera l'arrêt de la vérification d'autres critères par la TopBar."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:42
+msgid "Start Time"
+msgstr "Temps de début"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:44
+msgid "Set Start Time to Blank"
+msgstr "Laisser vide le temps de début"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:48
+msgid "Pick the date/time for the TopBar to start showing.  Default is <code>Blank</code>."
+msgstr "Choisir la date/heure du début d'affichage de la TopBar. La valeur par défaut est <code>vide</code>."
+
+#: lib/wp-topbar-control-tab.php:49
+msgid "You must use your WordPress Server Time when you set these options."
+msgstr "Vou devez utiliser l'heure de votre serveur WordPress lorsque vous réglez ces options."
+
+#: lib/wp-topbar-control-tab.php:49
+msgid "When this page was rendered, the WordPress time was"
+msgstr "Lorsque cette page à été calculée, l'heure WordPress était"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:56
+msgid "End Time"
+msgstr "Temps de fin"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:59
+msgid "Set End Time to Blank"
+msgstr "Laisser vide le temps de fin"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:63
+msgid "Pick the date/time for the TopBar to stop showing.  Of course, it must be after the start time. Select Blank for the TopBar to never disappear.  Default is <code>Blank</code>."
+msgstr "Choisir la date/heure de la fin de l'affichage de la TopBar. Bien sur elle doit être postérieure à celle de début. Laisser vide pour que la TopBar ne disparaisse jamais. La valeur par défaut est <code>vide</code>."
+
+#: lib/wp-topbar-control-tab.php:70
+msgid "Show TopBar on<br>Home Page"
+msgstr "Afficher la Topbar sur<br>la page d'accueil"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:75 lib/wp-topbar-control-tab.php:83 lib/wp-topbar-control-tab.php:98 lib/wp-topbar-control-tab.php:106 lib/wp-topbar-control-tab.php:240 lib/wp-topbar-control-tab.php:248 lib/wp-topbar-control-tab.php:263 lib/wp-topbar-control-tab.php:271
+msgid "A"
+msgstr "A"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:76 lib/wp-topbar-control-tab.php:84 lib/wp-topbar-control-tab.php:99 lib/wp-topbar-control-tab.php:107 lib/wp-topbar-control-tab.php:241 lib/wp-topbar-control-tab.php:249 lib/wp-topbar-control-tab.php:264 lib/wp-topbar-control-tab.php:272
+msgid "B"
+msgstr "B"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:77 lib/wp-topbar-control-tab.php:85 lib/wp-topbar-control-tab.php:100 lib/wp-topbar-control-tab.php:108 lib/wp-topbar-control-tab.php:242 lib/wp-topbar-control-tab.php:250 lib/wp-topbar-control-tab.php:265 lib/wp-topbar-control-tab.php:273
+msgid "C"
+msgstr "C"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:78 lib/wp-topbar-control-tab.php:86 lib/wp-topbar-control-tab.php:243 lib/wp-topbar-control-tab.php:251
+msgid "D"
+msgstr "D"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:82
+msgid "Select how you want the TopBar to show on the Home page.  Default is to <code>conditionally</code> show the TopBar on the Home Page:"
+msgstr "Sélectionner comment vous voulez afficher la TopBar sur la page d'accueil. Par défaut elle est <code>conditionnellement</code> affichée sur la page :"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:83
+msgid "<strong>Always</strong> shows the TopBar on the Home Page regardless of any other criteria entered below."
+msgstr "<strong>Toujours</strong> afficher la TopBar sur la page d'accueil indépendamment de tout autre critère entré ci-dessous."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:84
+msgid "<strong>Never</strong> shows the TopBar on the Home Page regardless of any other criteria entered below."
+msgstr "<strong>Ne jamais</strong> afficher la TopBar sur la page d'accueil indépendamment de tout autre critère entré ci-dessous."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:85
+msgid "<strong>Conditionally</strong> shows the TopBar on the Home Page if the page matches the Page ID and/or Category criteria entered below."
+msgstr "<strong>Conditionnellement</strong> afficher la TopBar sur la page d'accueil si l'ID de la page et/ou la catégorie correspondent aux critères entrés ci-dessous."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:86
+msgid "<strong>Only</strong> shows the TopBar on the Home Page and not other pages."
+msgstr "Afficher <strong>uniquement</strong> la TopBar sur la page d'accueil et sur aucune autre page."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:93
+msgid "Logged In Users"
+msgstr "Utilisateurs connectés"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:105
+msgid "Select how you want the TopBar to show for users.  Default is to <code>Always</code> show the TopBar, regardless if they are logged in:"
+msgstr "Sélectionner comment vous voulez afficher la TopBar aux utilisateurs. Par défaut elle est <code>Toujours</code> affichée, si les utilisateurs sont connectés ou pas :"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:106
+msgid "<strong>Not Logged In</strong> shows the TopBar only for users not logged in."
+msgstr "<strong>Non connecté</strong> n'affiche la TopBar qu'aux utilisateurs non connectés."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:107
+msgid "<strong>Logged In</strong> shows the TopBar only for users logged in."
+msgstr "<strong>Connecté</strong> n'affiche la TopBar qu'aux utilisateurs connectés."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:108
+msgid "<strong>Always</strong> shows the TopBar for all users, logged in or not."
+msgstr "<strong>Toujours</strong> afficher la TopBar aux utilisateurs connectés et non connectés."
+
+#: lib/wp-topbar-control-tab.php:116
+msgid "Post/Page Type Criteria"
+msgstr "Type de critères de page / article"
+
+#: lib/wp-topbar-control-tab.php:119
+msgid "Sticky Posts"
+msgstr "Articles mis en avant"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:122 lib/wp-topbar-control-tab.php:133 lib/wp-topbar-control-tab.php:144 lib/wp-topbar-control-tab.php:155 lib/wp-topbar-control-tab.php:166 lib/wp-topbar-control-tab.php:177 lib/wp-topbar-control-tab.php:200 lib/wp-topbar-control-tab.php:224
+msgid "Include"
+msgstr "Inclure"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:123 lib/wp-topbar-control-tab.php:134 lib/wp-topbar-control-tab.php:145 lib/wp-topbar-control-tab.php:156 lib/wp-topbar-control-tab.php:167 lib/wp-topbar-control-tab.php:178 lib/wp-topbar-control-tab.php:201 lib/wp-topbar-control-tab.php:225
+msgid "Exclude"
+msgstr "Exclure"
+
+#: lib/wp-topbar-control-tab.php:126
+msgid "Select if you want the TopBar to show on Sticky Posts.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on Sticky Posts<br><code>Exclude</code> will have the TopBar to not show up Sticky Posts."
+msgstr "Sélectionner si vous voulez afficher la TopBar sur les articles mis en avant. Par défaut c'est <code>Include</code>&nbsp;:<br><code>Include</code> fera s'afficher la TopBar sur les articles mis en avant <br><code>Exclude</code> n'affichera pas la TopBar sur les articles mis en avant."
+
+#: lib/wp-topbar-control-tab.php:130
+msgid "Pages"
+msgstr "Pages"
+
+#: lib/wp-topbar-control-tab.php:137
+msgid "Select if you want the TopBar to show on Pages.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on Pages<br><code>Exclude</code> will have the TopBar to not show up Pages."
+msgstr "Sélectionner si vous voulez afficher la TopBar sur les pages. Par défaut c'est <code>Include</code>&nbsp;:<br><code>Include</code> fera s'afficher la TopBar sur les pages <br><code>Exclude</code> n'affichera pas la TopBar sur les pages."
+
+#: lib/wp-topbar-control-tab.php:141
+msgid "Posts"
+msgstr "Articles"
+
+#: lib/wp-topbar-control-tab.php:148
+msgid "Select if you want the TopBar to show on Posts.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on Posts<br><code>Exclude</code> will have the TopBar to not show up Posts."
+msgstr "Sélectionner si vous voulez afficher la TopBar sur les articles. Par défaut c'est <code>Include</code>&nbsp;:<br><code>Include</code> fera s'afficher la TopBar sur les articles<br><code>Exclude</code> n'affichera pas la TopBar sur les articles."
+
+#: lib/wp-topbar-control-tab.php:152
+msgid "Archives"
+msgstr "Archives"
+
+#: lib/wp-topbar-control-tab.php:159
+msgid "Select if you want the TopBar to show on Archives.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on Archives<br><code>Exclude</code> will have the TopBar to not show up Archives."
+msgstr "Sélectionner si vous voulez afficher la TopBar sur les archives. Par défaut c'est <code>Include</code>&nbsp;:<br><code>Include</code> fera s'afficher la TopBar sur les archives<br><code>Exclude</code> n'affichera pas la TopBar sur les archives."
+
+#: lib/wp-topbar-control-tab.php:163
+msgid "Search Results"
+msgstr "Résultats de recherche"
+
+#: lib/wp-topbar-control-tab.php:170
+msgid "Select if you want the TopBar to show on search results.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on search results<br><code>Exclude</code> will have the TopBar to not show up search results page."
+msgstr "Sélectionner si vous voulez afficher la TopBar sur les résultats de recherche. Par défaut c'est <code>Include</code>&nbsp;:<br><code>Include</code> fera s'afficher la TopBar sur les résultats de recherche<br><code>Exclude</code> n'affichera pas la TopBar sur les résultats de recherche."
+
+#: lib/wp-topbar-control-tab.php:174
+msgid "404 Pages"
+msgstr "Pages 404"
+
+#: lib/wp-topbar-control-tab.php:181
+msgid "Select if you want the TopBar to show on 404 page.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on 404 page<br><code>Exclude</code> will have the TopBar to not show up a 404 page."
+msgstr "Sélectionner si vous voulez afficher la TopBar sur la page 404. Par défaut c'est <code>Include</code>&nbsp;:<br><code>Include</code> fera s'afficher la TopBar sur la page 404<br><code>Exclude</code> n'affichera pas la TopBar sur la page 404."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:188
+msgid "Page IDs"
+msgstr "ID de la page"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:193
+msgid "Enter the IDs of the pages and posts that you want the TopBar to appear on, separated by commas. The TopBar will only be shown on those pages by using the <code>Page ID Criteria</code> option you select below. Leave blank or enter 0 to show the TopBar on all pages.  e.g. 1,9,39,10:"
+msgstr "Entrez les IDs des pages et articles où vous voulez qu'apparaisse la TopBar, séparés par des virgules. La TopBar sera seulement affichée sur ces pages en utilisant l'option <code>Page ID Criteria</code> sélectionnée ci-dessous. Laissez vide ou entrez 0 pour afficher la TopBar sur toutes les pages. Exemple : 1,9,39,10:"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:197
+msgid "Page ID Criteria"
+msgstr "Critères d'ID de la page"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:204
+msgid "Select how you want to process the Page IDs entered above.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on those Page IDs<br><code>Exclude</code> will have the TopBar to not show up on those specific Page IDs:"
+msgstr "Sélectionnez comment vous désirez que l'ID de Page entrée ci-dessus soit traitée. Par défaut <code>Include</code> :<br><code>Include</code> affichera la TopBar sur ces pages <br><code>Exclude</code> fera que la TopBar n'apparaisse pas sur ces pages spécifiques :"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:216
+msgid "Enter the IDs of the categories that you want the TopBar to test for, separated by commas. The TopBar will only be shown on those categories in the default \"category\" taxonomy by using the <code>Categegory ID Criteria</code> option you select below. Leave blank or enter 0 to show the TopBar on all categories.  e.g. 9,10,2,12:"
+msgstr "Sélectionnez l'ID des catégories que TopBar doit tester. la TopBar ne s'affichera que dans ces catégories, dans la taxonomie \"catégorie\" par défaut en utilisant l'option <code>Category ID Criteria</code> sélectionnées ci-dessous. Laissez vide ou entrez 0 pour afficher la TopBar dans toutes les catégories. Exemple : 9,10,2,12:"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:220
+msgid "Category ID Criteria"
+msgstr "Critères d'ID de la catégorie"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:229
+msgid "Select how you want to process the Category IDs entered above.  Default is <code>Include</code>:<br><code>Include</code> will have the TopBar show on those Category IDs<br><code>Exclude</code> will have the TopBar to not show up on those specific Category IDs."
+msgstr "Sélectionnez comment vous désirez que l'ID de catégorie entrée ci-dessus soit traitée. Par défaut <code>Include</code> :<br><code>Include</code> affichera la TopBar dans ces catégories <br><code>Exclude</code> fera que la TopBar n'apparaisse pas dans ces catégories spécifiques :"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:236
+msgid "Selection Criteria Logic"
+msgstr "Critères de sélection logique"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:247
+msgid "Select how you want the TopBar to use the selection criteria you set above.  Default is to check only the <code>Page IDs</code>:"
+msgstr "Sélectionnez comment vous désirez que la TopBar utilise le critère de sélection que vous avez défini ci-dessus. Par défaut seuls les <code>IDs de Page<code> sont vérifiés."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:248
+msgid "Checks only Page IDs (ignore Category ID criteria)"
+msgstr "Vérifie uniquement les IDs de la page (ignore les critères de l'ID de la catégorie)"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:249
+msgid "Checks only Category IDs (ignore Page ID criteria)"
+msgstr "Vérifie uniquement les IDs de la catégorie (ignore les critères de l'ID de la page)"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:250
+msgid "<strong>BOTH</strong> Page ID <strong>and</strong> Category ID must match the criteria above for the TopBar to show"
+msgstr "<strong>ET</strong> l'ID de Page <strong>ET</strong> l'ID de catégorie doivent correspondre aux critères ci-dessus pour que la TopBar s'affiche."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:251
+msgid "<strong>EITHER</strong> Page ID <strong>or</strong> Category ID must match the criteria above for the TopBar to show"
+msgstr "<strong>SOIT</strong> l'ID de Page <strong>SOIT</strong> l'ID de catégorie doit correspondre aux critères ci-dessus pour que la TopBar s'affiche."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:259
+msgid "Mobile Devices"
+msgstr "Appareils mobiles"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:270
+msgid "Select how you want the TopBar to show for mobile users.  Default is to <code>Always</code> show the TopBar, regardless if they are logged in:"
+msgstr "Sélectionner comment vous voulez afficher la TopBar aux utilisateurs sur mobile. Par défaut elle est <code>Toujours</code> affichée, si les utilisateurs sont connectés ou pas :"
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:271
+msgid "<strong>Mobile Devices</strong> shows the TopBar only for mobile devices."
+msgstr "<strong>Appareils mobiles</strong> n'affiche la TopBar que sur les appareils mobiles."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:272
+msgid "<strong>non-Mobile Devices</strong> shows the TopBar only for other devices."
+msgstr "<strong>Appareils non-mobiles</strong> n'affiche la TopBar que sur les autres appareils."
+
+# @ wp-topbar
+#: lib/wp-topbar-control-tab.php:273
+msgid "<strong>Always</strong> shows the TopBar for all devices."
+msgstr "<strong>Toujours</strong> affiche la TopBar sur tous les appareils."
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:33
+msgid "TopBar CSS & HTML"
+msgstr "CSS & HTML de la TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:35
+msgid "Enter any custom CSS and HTML for the TopBar.  This allows you to add padding, font styles & more.  Be really careful here -- this could break your website!  Test this with multiple browsers to make sure it works across them all. Double-quotes are automatically replaced with single quotes.<p><strong>Don't forget the trailing semi-colon.</strong>"
+msgstr "Entrez tout CSS et HTML personnalisé pour la TopBar. Ceci vous permet d'ajouter du padding, des styles de police et plus. Soyez vigilents -- cela pourrait endommager l'affichage de votre site. Vérifiez dans plusieurs navigateurs pour vous assurer que tout fonctionne sur chacun d'eux. Les guillemets doubles sont automatiquement remplacés par des guillements simples (apostrophe).<p><strong>N'oubliez pas le point-virgule final.</strong>"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:36
+msgid "Create a custom CSS gradient at colorzilla.com"
+msgstr "Créer un dégradé CSS personnalisé sur colorzilla.com"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:40 lib/wp-topbar-css-tab.php:115
+msgid "How these options work"
+msgstr "Comment ces options fonctionnent"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:42 lib/wp-topbar-css-tab.php:117
+msgid "The TopBar is displayed within it's own <em>div</em> containers"
+msgstr "La TopBar est affichée dans ses propres <em>div</em>"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:45 lib/wp-topbar-css-tab.php:93
+msgid "CSS Option C"
+msgstr "CSS Option C"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:45 lib/wp-topbar-css-tab.php:158
+msgid "HTML Option C"
+msgstr "HTML Option C"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:46 lib/wp-topbar-css-tab.php:60
+msgid "CSS Option A"
+msgstr "CSS Option A"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:46 lib/wp-topbar-css-tab.php:132
+msgid "HTML Option A"
+msgstr "HTML Option A"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:47 lib/wp-topbar-css-tab.php:83
+msgid "CSS Option B"
+msgstr "CSS Option B"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:47 lib/wp-topbar-css-tab.php:145
+msgid "HTML Option B"
+msgstr "HTML Option B"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:51
+msgid "You have separate fields to enter your custom CSS and HTML below"
+msgstr "Vous avez des champs séparés pour insérer vos CSS et HTML personnalisés ci-dessous"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:60
+msgid "For the Bar/Background Image:</br>(i.e. for the second &lt;DIV&gt; Tag for the TopBar)"
+msgstr "Pour l'image de fond ou image de la TopBar :</br>(par exemple pour le second tag &lt;DIV&gt; de la TopBar)"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:62
+msgid "Examples"
+msgstr "Exemples"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:63
+msgid "To make all text lowercase"
+msgstr "Pour mettre tout le texte en minuscules."
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:64
+msgid "To make all text uppercase using the Georgia Font"
+msgstr "Pour mettre tout le texte en majuscules en police Georgia."
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:65
+msgid "To add a gradient bar"
+msgstr "Pour ajouter une barre en dégradé"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:73
+msgid "To made the TopBar partially opaque"
+msgstr "Pour rendre la TopBar partiellement opaque."
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:74
+msgid "To not repeat Background Image, make the TopBar 100px high & vertically center the text in the TopBar"
+msgstr "Pour ne pas répéter l'image de fond,  mettez la barre du haut à 100 pixels de haut, et centrer verticalement le texte dans la TopBar."
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:75
+msgid "Enter CSS Option A Here"
+msgstr "Saisissez le CSS Option A ici."
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:83
+msgid "For the Text Message:</br>(i.e. for the &lt;a&gt; Tag on the TopBar)"
+msgstr "Pour le message texte :</br>(par exemple pour le tag &lt;a&gt; de la TopBar)"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:85
+msgid "Enter CSS Option B Here"
+msgstr "Saisissez le CSS Option B ici"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:93
+msgid "For the entire TopBar:</br>(i.e. at the TopBar's &lt;DIV&gt;)"
+msgstr "Pour la TopBar entière :</br>(par exemple pour la  &lt;DIV&gt; de la TopBar)"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:94
+msgid "Use this CSS to fix the TopBar to the top of the page and <strong>OVERLAY</strong> the contents of the page"
+msgstr "Utiliser ce CSS pour fixer la TopBar en haut de la page et <strong>RECOUVRIR</strong> le contenu de la page"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:96
+msgid "Or this CSS to fix the TopBar to the top of the page and <strong>PUSH</strong> the contents down"
+msgstr "Ou ce CSS pour fixer la TopBar en haut de la page et <strong>POUSSER</strong> le contenu de la page vers le bas"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:98
+msgid "Or this to fix the TopBar to the bottom of the page"
+msgstr "Ou pour fixer la TopBar en bas de la page"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:101
+msgid "Note that by putting your TopBar in a Fixed position, you will overlay the content of your website by the TopBar."
+msgstr "Notez qu'en donnant une position fixe à votre TopBar, celle-ci va recouvrir le contenu de votre site."
+
+#: lib/wp-topbar-css-tab.php:102
+msgid "Want the push the page down AND have the TopBar fixed to the top of the page?  Then set the Forced Fixed option (on the Main Tab) to <code>on</code> See:"
+msgstr "Vous voulez pouvoir descendre sur la page ET avoir la TopBar fixe sur le haut&nbsp;? Alors réglez l'option Forced Fixed (dans l'onglet principal) sur <code>Oui</code>. Voir&nbsp;:"
+
+#: lib/wp-topbar-css-tab.php:114
+msgid "Enter your custom HTML below.  Note you <strong>MUST</strong> use only double quotes (&quot;); do <strong>NOT</strong> use single quotes (') for they will break the TopBar"
+msgstr "Entrez votre HTM personnalisé ci-dessous.  Notez que vous <strong>DEVEZ</strong> utiliser uniquement des doubles guillemets (\"); n'utilisez <strong>PAS</strong> de guillemets simples (') parce qu'ils empêcheraient l'affichage de la TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:132
+msgid "For the Bar/Background Image:</br>(i.e. for the second &lt;DIV&gt; Tag on the TopBar)"
+msgstr "Pour la barre ou l'image d'arrière-plan&nbsp;:</br>(par exemple pour la deuxième balise &lt;DIV&gt; de la TopBar)"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:133
+msgid "Use this add custom HTML to the second DIV tag for the TopBar"
+msgstr "Utilisez cela permet d'ajouter de l'HTML personnalisé à la deuxième balise DIV de la TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:134 lib/wp-topbar-css-tab.php:147 lib/wp-topbar-css-tab.php:160
+msgid "Example"
+msgstr "Exemple"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:137
+msgid "Enter HTML Option A Here"
+msgstr "Saisissez l&rsquo;:Option HTML A ici"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:145
+msgid "For the Link:</br>(i.e. for the &lt;a&gt; Tag on the TopBar)"
+msgstr "Pour le lien&nbsp;:</br>(par exemple pour la balise &lt;a&gt; de la TopBar)"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:146
+msgid "Use this add custom HTML to the link tag (&lt;a&gt;)"
+msgstr "Utilisez cela pour ajouter de l'HTML personnalisé au lien du mot-clef (&lt;a&gt;)"
+
+#: lib/wp-topbar-css-tab.php:150
+msgid "Enter HTML Option B Here"
+msgstr "Saisissez l&rsquo;:Option HTML B ici"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:159
+msgid "Use this add custom HTML to the main DIV tag for the TopBar"
+msgstr "Utilisez cela permet d'ajouter de l'HTML personnalisé à la balise DIV principale de la TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:161
+msgid "This will trigger the <em>onmouseover</em> DOM event and execute custom JavaScript code.  That code needs to be loaded by your theme or another method."
+msgstr "Ceci va activer le DOM event <em>onmouseover</em> et exécuter le code JavaScript personnalisé. Ce code doit être chargé par votre thème ou une autre méthode."
+
+# @ wp-topbar
+#: lib/wp-topbar-css-tab.php:164
+msgid "Enter HTML Option C Here"
+msgstr "Saisissez l&rsquo;:Option HTML C ici"
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:857
+msgid "Rotation Display Time is not numeric. Resetting to 9000."
+msgstr "Temps d'affichage de la rotation n'est pas numérique. Réinitialisation à 9000."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:865
+msgid "Rotation Start Delay is not numeric. Resetting to 1000."
+msgstr "Le retard au démarrage de la rotation n'est pas numérique. Réinitialisation à 1000."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:878
+msgid "Rotation Count is not numeric. Resetting to 0."
+msgstr "Le nombre de rotation n'est pas numérique. Remis à 0."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:986
+msgid "Priority is not numeric. Resetting to 25."
+msgstr "La priorité n'est pas numérique. Réinitialisation à 25."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:992
+msgid "Priority is greater than 100. Resetting to 100."
+msgstr "La priorité est plus grande que 100. Réinitialisation à 100."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:996
+msgid "Priority is less than 1. Resetting to 1."
+msgstr "La priorité est inférieure à 1. Réinitialisation à 1."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1048
+msgid "Bottom border height is not numeric. Resetting to 3px."
+msgstr "La hauteur de la bordure du bas n'est pas numérique. Réinitialisation à 3px."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1057
+msgid "Delay time is not numeric. Resetting to zero."
+msgstr "Le temps de retard n'est pas numérique. Remis à 0."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1066
+msgid "Slide time is not numeric. Resetting to zero."
+msgstr "Le temps de la diapositive n'est pas numérique. Remise à zéro."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1075
+msgid "Display time is not numeric. Resetting to zero."
+msgstr "Le temps d'affichage n'est pas numérique. Remise à zéro."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1084
+msgid "Scroll Amount is not numeric. Resetting to zero."
+msgstr "La quantité du défilement n'est pas numérique. Remise à zéro."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1105
+msgid "Font size is not numeric. Resetting to 8px."
+msgstr "La taille de police n'est pas numérique. Réinitialisation à 8px."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1114
+msgid "Top padding is not numeric. Resetting to 8px."
+msgstr "Le padding haut n'est pas numérique. Réinitialisation à 8px."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1123
+msgid "Bottom padding is not numeric. Resetting to 8px."
+msgstr "Le padding bas n'est pas numérique. Réinitialisation à 8px."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1132
+msgid "Top margin is not numeric. Resetting to 0px."
+msgstr "Le margin du haut n'est pas numérique. Réinitialisation à 0px."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1141
+msgid "Bottom margin is not numeric. Resetting to 0px."
+msgstr "Le margin du bas n'est pas numérique. Réinitialisation à 0px."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1150
+msgid "Left margin is not numeric. Resetting to 0px."
+msgstr "Le margin gauche n'est pas numérique. Réinitialisation à 0px."
+
+# @ wp-topbar
+#: lib/wp-topbar-db-io.php:1159
+msgid "Right margin is not numeric. Resetting to 0px."
+msgstr "Le margin droite n'est pas numérique. Réinitialisation à 0px."
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:39
+msgid "Debug Settings"
+msgstr "Réglages du débogage"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:47
+msgid "Starting Time"
+msgstr "Temps de départ"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:47 lib/wp-topbar-debug-tab.php:49
+msgid "(UTC) - As entered:"
+msgstr "(UTC) - Tel qu'entré :"
+
+#: lib/wp-topbar-debug-tab.php:49
+msgid "Ending Time"
+msgstr "Temps de fin"
+
+#: lib/wp-topbar-debug-tab.php:53
+msgid "Status"
+msgstr "État"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:54
+msgid "The TopBar is not enabled.  Enable it in the <a href=\"?page=wp-topbar.php&action=main&barid="
+msgstr "La TopBar n'est pas activée. L'activer dans <a href=\"?page=wp-topbar.php&action=main&barid="
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:56
+msgid "The plugin is not checking for the presence of cookies.  That is not preventing the TopBar from showing."
+msgstr "L'extension ne vérifie pas la présence de cookies. Cela n'empêche pas la TopBar de s'afficher."
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:59
+msgid "The plugin is checking for the presence of cookies. You have a cookie that will prevent the TopBar from showing.  To show the TopBar, clear your browser's cookies or you can change the Cookie Value or disable cookies in the"
+msgstr "Cette extension vérifie la présence de cookies. Vous avez un cookie qui empêche la TopBar de s'afficher. Pour afficher la TopBar, supprimez les cookies de votre navigateur, changez la valeur du cookie ou désactivez vos cookies dans "
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:61
+msgid "The plugin is checking for the presence of cookies. You do not have a cookie that will prevent the TopBar from showing."
+msgstr "Cette extension vérifie la présence de cookies. Vous n'avez pas de cookie empêchant l'affichage de la TopBar."
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:66
+msgid "Debug Helpers"
+msgstr "Aide au déboguage"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:68
+msgid "<li>You can append <code>&debug</code> after the wp-topbar URL to turn on debugging messages. i.e. <code>admin.php?page=wp-topbar.php&debug</code> . These messages can help you see if you have a parameter that will cause the TopBar to break.</li><li><code>&debug</code> will turn on an internal timer that will display debug messages for about one minute.  The timer is reset for every page refresh that has <code>&debug</code>.  If you have debugging turned on (in your wp-config.php), then the error messages will also be sent to the default WordPress logfile for any non-admin page views of your website. i.e. <code>define('WP_DEBUG', true);</code> and <code>define('WP_DEBUG_LOG', true);</code></li><li>To turn off the debug messages, remove the <code>&debug</code> from the URL and wait about one minute.</li>"
+msgstr "<li> Vous pouvez ajouter <code>&debug</code> après l'URL de wp-topbar pour activer les messages de débogage. C'est à dire <code>admin.php?page=wp-topbar.php&debug</code>. Ces messages peuvent vous aider à voir si vous avez un paramètre qui pourrait casser TopBar.</li><li><code>&debug</code> activera une horloge interne qui permettra d'afficher les messages de débogage pendant environ une minute. La minuterie est remise à zéro pour chaque rafraîchissement de la page avec <code>&debug</code>. Si vous avez le débogage activé (dans votre wp-config.php), alors les messages d'erreur seront également envoyés au fichier journal par défaut de WordPress pour toutes les pages vues non-admin de votre site web. C'est à dire <code>define ('WP_DEBUG', true); </code> et <code>define ('WP_DEBUG_LOG', true); </code></li><li>Pour désactiver les messages de débogage, retirez le <code>&debug</code> de l'URL et attendez environ une minute.</li>"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:75
+msgid "Below is the actual code that will be generated by the plugin.  Look closely to determine if any of your custom HTML or CSS values are causing issues with the TopBar."
+msgstr "Voici le code qui sera généré par l'extension. Regardez attentivement pour déterminer si de l'HTML ou du CSS personnalisé provoque des problèmes avec la TopBar."
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:77
+msgid "Since you are putting the TopBar in the Header, the Plugin adds the following Javascript to prepend the HTML to the top of the Body:"
+msgstr "Comme vous afficher la TopBar dans l'en-tête, l'extension ajoute le JavaScript suivant avant le code HTML suivant en haut de l'élément Body :"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:80
+msgid "The <strong>Rotate TopBars</strong> option is turned on.  With this turned ON, the Scrollable, Close Button, and Re-Open options are <strong>ignored and turned off</strong>.  To turn off Rotate TopBars, go to the"
+msgstr "L'option <strong>Rotation des TopBars</strong> est activée. Avec cette dernière activée, le défilement, le bouton de fermeture et les options de réouverture sont <strong>ignorés et désactivés</strong>. Pour désactiver Rotation topbars, aller vers"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:80 lib/wp-topbar-display-functions.php:248 lib/wp-topbar-display-functions.php:455 lib/wp-topbar-display-functions.php:567 lib/wp-topbar-sample-tab.php:173
+msgid "Global Settings tab"
+msgstr "Onglet des réglages principaux"
+
+# @ wp-topbar
+#: lib/wp-topbar-debug-tab.php:89
+msgid "<strong>The TopBar is not enabled.  Therefore no HTML will be generated. Enable it in the <a href=\"?page=wp-topbar.php&action=main&barid="
+msgstr "<strong>La TopBar n'est pas activée.  Par conséquent, aucun HTML sera généré. Activez-le dans <a href=\"?page=wp-topbar.php&action=main&barid="
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:21 lib/wp-topbar-display-functions.php:23 lib/wp-topbar-display-functions.php:88 wp-topbar.php:273
+msgid "All TopBars"
+msgstr "Toutes les TopBars"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:21 lib/wp-topbar-display-functions.php:23 wp-topbar.php:273
+msgid "Test Priority"
+msgstr "Test de priorité "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:21 lib/wp-topbar-display-functions.php:23 lib/wp-topbar-export.php:41 wp-topbar.php:273
+msgid "Export Options"
+msgstr "Options de l'exportation"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:21 lib/wp-topbar-display-functions.php:23 lib/wp-topbar-sample-tab.php:167
+msgid "Sample TopBars"
+msgstr "TopBars d'exemple"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:21 lib/wp-topbar-display-functions.php:23 lib/wp-topbar-settings-tab.php:32 wp-topbar.php:273 wp-topbar.php:289
+msgid "Global Settings"
+msgstr "Réglages principaux"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:23 lib/wp-topbar-uninstall-tab.php:33 wp-topbar.php:289
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:59
+#, php-format
+msgid "%d row created."
+msgid_plural "%d rows created."
+msgstr[0] "%d ligne créée."
+msgstr[1] "%d lignes créées."
+
+#: lib/wp-topbar-display-functions.php:67 lib/wp-topbar-display-functions.php:127
+msgid "Plugin Homepage"
+msgstr "Site Web de l&rsquo;extension"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636 lib/wp-topbar-display-functions.php:962
+msgid "Main&nbspOptions"
+msgstr "Options principales"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636
+msgid "Control"
+msgstr "Contrôles"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636 lib/wp-topbar-display-functions.php:962
+msgid "TopBar&nbspText&nbsp&&nbspImage"
+msgstr "TopBar&nbspTexte&nbsp&&nbspImage"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636 lib/wp-topbar-display-functions.php:962
+msgid "TopBar&nbspCSS&nbsp&&nbspHTML"
+msgstr "TopBar&nbspCSS&nbsp&&nbspHTML"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636 lib/wp-topbar-display-functions.php:962
+msgid "Color&nbspSelection"
+msgstr "Couleur&nbspSélection"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636
+msgid "Close&nbspButton"
+msgstr "Bouton&nbspFermer"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636
+msgid "Social&nbspButtons"
+msgstr "Boutons&nbspSociaux"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636
+msgid "PHP"
+msgstr "PHP"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:88 lib/wp-topbar-display-functions.php:636
+msgid "Debug"
+msgstr "Débogage"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:138
+msgid "Enable TopBar"
+msgstr "Activer la TopBar"
+
+#: lib/wp-topbar-display-functions.php:160
+msgid "Restrictions:"
+msgstr "Restrictions :"
+
+#: lib/wp-topbar-display-functions.php:248
+msgid "The Custom Samples Directory is not a valid URL. To fix this go to the"
+msgstr "Les exemples de répertoire personnalisé n'ont pas une URL valide. Pour résoudre ce problème allez vers"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:256 lib/wp-topbar-network-admin.php:167
+msgid "WP-TopBar - Version"
+msgstr "WP-TopBar - Version"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:259 lib/wp-topbar-network-admin.php:171
+msgid "Creates TopBars that can be shown at the top of your website.  Version 5 adds ability to close TopBars and also gives you a Sample TopBar Tab that has starter TopBars that you can customize."
+msgstr "Crée des topbars qui peuvent être affichées en haut de votre site web. La version 5 ajoute la capacité de fermer les topbars et vous donne un exemple d'onglet TopBar que vous pouvez personnaliser pour démarrer."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:261 lib/wp-topbar-network-admin.php:173
+msgctxt "part of please donate if you find this plugin useful"
+msgid "Please"
+msgstr "Veuillez"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:262 lib/wp-topbar-network-admin.php:174
+msgctxt "part of please donate if you find this plugin useful"
+msgid "if you find this plugin useful."
+msgstr "Si vous trouvez cette extension utile."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:298
+msgid "End Time is before Start Time - TopBar will not display.  To fix this go to the"
+msgstr "L'heure de fin est avant l'heure de début - TopBar ne s'affichera pas. Pour résoudre ce problème allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:298 lib/wp-topbar-display-functions.php:451
+msgid "Control tab"
+msgstr "Onglet de contrôle"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:309
+msgid "You have allowed the Scroll Action on for this TopBar and have the Rotate TopBars turned on in the Global Settings tab. Scroll Action option is ignored if the TopBars are being rotated. To fix this go to the"
+msgstr "Vous avez autorisé l'action de défilement sur cette TopBar et avez activé la  Rotation des topbars dans l'onglet Réglages Généraux. L'option d'action de défilement est ignorée si les topbars sont en rotation. Pour résoudre ce problème allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:309
+msgid "Main Options tab"
+msgstr "Onglet des options principales"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:313
+msgid "You have allowed the TopBar to be closed and have the Rotate TopBars turned on in the Global Settings tab. Close buttons are ignored if the TopBars are being rotated. To fix this go to the"
+msgstr "Vous avez autorisée la TopBar a être fermé et avez activé la rotation des topbars dans l'onglet Réglages généraux. Les boutons de fermeture sont ignorée si la rotation des topbars est active. Pour résoudre ce problème à allez vers"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:316
+msgid "You have turned on the Re-Open TopBar option and have the Rotate TopBars turned on in the Global Settings tab. Re-open buttons are ignored if the TopBars are being rotated. To fix this go to the"
+msgstr "Vous avez activé l'option Ré-Ouvrir TopBar et avez activé la rotation des topbars dans l'onglet Réglages généraux. Les boutons de Réouverture sont ignorés si la rotation des topbars est active. Pour résoudre ce problème l'aller vers"
+
+#: lib/wp-topbar-display-functions.php:319
+msgid "You have set the TopBar Location to be Below Footer in the Main Options tab but the TopBar CSS & HTML Tab -  Option C may not be set correctly.  It should have a \"bottom:\" parameter like <code>position:fixed; bottom: 0; padding:0; margin:0; z-index: 99999;</code>  To fix this go to the"
+msgstr "Vous avez défini l'emplacement de la TopBar en dessous du pied de page dans l'onglet Options générales mais l'onglet CSS & HTML TopBar Tab - Option C peut ne pas être réglé correctement. Elle devrait avoir un paramètre « bottom: » comme <code>position:fixed; bottom: 0; padding:0; margin:0; z-index: 99999;</code>  Pour corriger cela allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:319 lib/wp-topbar-display-functions.php:323 lib/wp-topbar-display-functions.php:326 lib/wp-topbar-display-functions.php:329
+msgid "TopBar CSS & HTML Tab - Option C"
+msgstr "Onglet du CSS & de l'HTML de la TopBar - Option C"
+
+#: lib/wp-topbar-display-functions.php:323
+msgid "You have set the TopBar Location to be Above Header in the Main Options tab but the TopBar CSS & HTML Tab -  Option C may not be set correctly.  It should have a \"top:\" parameter like <code>position:fixed; top: 40; padding:0; margin:0; z-index: 99999;</code>  To fix this go to the"
+msgstr "Vous avez défini l'emplacement de la TopBar au dessus de l'en-tête dans l'onglet Options générales mais l'onglet CSS & HTML TopBar Tab - Option C peut ne pas être réglé correctement. Elle devrait avoir un paramètre « bottom: » comme <code>position:fixed; top: 40; padding:0; margin:0; z-index: 99999;</code> Pour corriger cela allez vers "
+
+#: lib/wp-topbar-display-functions.php:326
+msgid "You have turned on the Scroll Action option in the Main Options tab but the TopBar CSS & HTML Tab -  Option C may not be set correctly.  It should have the position \"fixed\" like <code>position:fixed; top: 40; padding:0; margin:0; z-index: 99999;</code>  To fix this go to the"
+msgstr "Vous avez activé l'option d'action de défilement dans l'onglet  Options générales mais l'onglet CSS & HTML TopBar Tab - Option C peut ne pas être réglé correctement. Elle devrait avoir sa position « fixed » comme <code>position:fixed; top: 40; padding:0; margin:0; z-index: 99999;</code> Pour corriger cela allez vers"
+
+#: lib/wp-topbar-display-functions.php:329
+msgid "You have turned on \"Forced TopBar to Top of Page\" in the Main Options tab but the TopBar CSS & HTML Tab -  Option C may not be set correctly and may cause choppy sliding of the TopBar/page.  The TopBar should not have the position \"fixed\" like <code>position:fixed; top: 40; padding:0; margin:0; z-index: 99999;</code>  To fix this, remove the <code>position:fixed</code> See: "
+msgstr "Vous avez activé l'option « Forcer la TopBar en haut de la page »  dans les Options générales mais l'onglet CSS & HTML TopBar - Option C peut ne pas être réglé correctement et provoqué des problèmes de déplacement de la TopBar sur la page. Elle devrait avoir sa position « fixed » comme <code>position:fixed; top: 40; padding:0; margin:0; z-index: 99999;</code> Pour corriger cela retirer <code>position:fixed</code>. Voir&nbsp;: "
+
+#: lib/wp-topbar-display-functions.php:332
+msgid "You have turned on the Scroll Action option in the Main Options tab and also have the Close Button turned on.  The Close Button has a higher priority and overrides the Scroll Button setting.  To change this go to the"
+msgstr "Vous avez activé l'option d'action de défilement dans l'onglet Options principales et également le bouton Fermer. Le bouton de fermeture a une priorité plus élevée et remplace le paramètre de bouton de défilement. Pour changer cela, allez vers"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:335
+msgid "You have allowed the TopBar to be re-opened and have have Enabled Cookies.  Cookies are ignored if the TopBar is allowed to be re-opened. To fix this go to the"
+msgstr "Vous avez autorisé la TopBar à être ré-ouverte et vous avez activé les cookies. Les cookies sont ignorés si la TopBar est autorisée à être ré-ouverte. Pour corriger cela allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:338
+msgid "You have allowed the TopBar to be closed but no close button CSS is entered for this TopBar on the same option page. To fix this go to the"
+msgstr "Vous avez autorisé la TopBar être fermée mais aucun bouton de fermeture CSS est entré pour cette TopBar sur la même page de l'option. Pour corriger cela allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:341
+msgid "You have allowed the TopBar to be closed but no close button image has been entered for this TopBar. To fix this go to the"
+msgstr "Vous avez autorisé la fermeture de la TopBar, mais aucune image de bouton de fermeture n'a été entrée pour cette TopBar. Pour réparer cela, allez dans "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:344
+msgid "You have allowed the TopBar to be re-opened but no re-open button CSS is entered for this TopBar on the same option page.  Re-open button will not work without (at least) the default CSS entered.  To fix this go to the"
+msgstr "Vous avez autorisé la TopBar à être ré-ouverte, mais il n'y a pas de bouton CSS de réouverture entré pour cette TopBar sur la même page de l'option. Le bouton de réouverture ne fonctionnera pas sans (au minimum) entrer le CSS par défaut. Pour corriger cela allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:347
+msgid "You have allowed the TopBar to be re-opened but no re-open button image has been entered for this TopBar. To fix this go to the"
+msgstr "Vous avez autorisé la TopBar à être ré-ouverte mais aucune image de bouton de réouverture n'a été saisie pour cette TopBar. Pour corriger cela allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:350
+msgid "You have enabled a bar image but no image has been entered for this TopBar. To fix this go to the"
+msgstr "Vous avez activé une image de barre, mais aucune image n'a été saisie pour cette TopBar. Pour corriger cela allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:350
+msgid "TopBar Text & Image tab"
+msgstr "Texte de la TopBar & Onglet d'image"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:354
+#, php-format
+msgid "You have enabled an image for Social Button # %d but no image has been entered for this Social Button. To fix this go to the"
+msgstr "Vous avez activé une image pour le Bouton social # %d mais aucune image n'a été saisie pour ce Bouton social. Pour corriger cela allez vers "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:354
+msgid "Social Buttons tab"
+msgstr "Onglet des boutons sociaux"
+
+#: lib/wp-topbar-display-functions.php:358
+msgid "FYI: You have entered custom PHP in the CONTROL option on the PHP tab, that code could override the selections you have on the Control Tab."
+msgstr "PVI&nbsp;: Vous avez entré du PHP personnalisé dans l'option CONTRÔLE de l'onglet PHP, cela peut écraser les sélections que vous avez dans l'onglet Contrôle."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:374
+msgid "You have a cookie with this browser that will prevent the TopBar from showing.  To show the TopBar, clear your browser's cookies, change the Cookie Value, or disable cookies in the Close Button tab."
+msgstr "Vous avez un cookie avec ce navigateur qui va empêcher la TopBar de s'afficher. Pour afficher la TopBar, effacez les cookies de votre navigateur, modifiez la valeur du cookie ou désactivez les cookies dans l'onglet Bouton fermer."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:379
+msgid "TopBar is not enabled."
+msgstr "La TopBar n'est pas activée."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:380
+msgid "Check"
+msgstr "Vérification"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:386 lib/wp-topbar-display-functions.php:388 lib/wp-topbar-display-functions.php:391 lib/wp-topbar-display-functions.php:393
+msgid "Time check"
+msgstr "Vérification de l'heure"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:386
+msgid " Based on your Start/End time settings in the Main Options, (when enabled) the TopBar will display (based on the current time.)"
+msgstr "Basé sur vos réglages d'heure de Début / Fin dans les options générales, (lorsqu'elle est activé) la TopBar s'affichera (basé sur l'heure courante.)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:388
+msgid " Based on your Start/End time settings in the Main Options, (when enabled) the TopBar will <strong>not</strong> display (based on the current time.)"
+msgstr "Basé sur vos réglages d'heure de Début / Fin dans les options générales, (lorsqu'elle est activé) la TopBar <strong>ne s'affichera pas</strong> (basé sur l'heure courante.)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:391
+msgid " Based on your Start/End time settings in the Main Options, the TopBar will display (based on the current time.)"
+msgstr "Basé sur vos réglages d'heure de Début / Fin dans les options générales, la TopBar s'affichera (basé sur l'heure courante.)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:393
+msgid " Based on your Start/End time settings in the Main Options, the TopBar will <strong>not</strong> display (based on the current time.)"
+msgstr "Basé sur vos réglages d'heure de Début / Fin dans les options générales, la TopBar <strong>ne s'affichera pas</strong> (basé sur l'heure courante.)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:398 lib/wp-topbar-display-functions.php:401 lib/wp-topbar-display-functions.php:403
+msgid "Cookie check"
+msgstr "Vérification de cookie"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:398
+msgid " The plugin is not checking for the presence of cookies."
+msgstr "Cette extension ne vérifie pas la présence de cookies."
+
+#: lib/wp-topbar-display-functions.php:401
+msgid "The TopBar is checking for the presence of cookies. You have a cookie that will prevent the TopBar from showing.  To show the TopBar, clear your browser's cookies, change the Cookie Value, or disable cookies in the Close Button tab."
+msgstr "La TopBar vérifie la présence de cookies. Vous avez un cookie qui permettra d'éviter à la TopBar de s'afficher. Pour afficher la TopBar, effacez les cookies de votre navigateur, modifiez la valeur du Cookie ou désactivez les cookies dans l'onglet du bouton Fermer."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:403
+msgid " The TopBar is checking for the presence of cookies. You do not have a cookie that will prevent the TopBar from showing."
+msgstr "La TopBar vérifie la présence de cookies. Vous n'avez pas de cookie qui permettra d'éviter à la TopBar de s'afficher."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:407 lib/wp-topbar-display-functions.php:411 lib/wp-topbar-display-functions.php:415
+msgid "Home Page check"
+msgstr "Vérification de la page d'accueil"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:407
+msgid " TopBar will <strong>ALWAYS</strong> display on the Home Page (if the TopBar is enabled)"
+msgstr ""
+"TopBar sera <strong>TOUJOURS</strong> affiché sur la PAGE D'ACCUEIL (si la \n"
+"TopBar est activé)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:411
+msgid " TopBar will <strong>NEVER</strong> display on the Home Page (if the TopBar is enabled)"
+msgstr "La TopBar ne s'affichera <strong>JAMAIS</strong> sur la page d'accueil (si la TopBar est activée)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:415
+msgid " TopBar will <strong>CHECK</strong> Page/Category criteria to determine if it should display on the Home Page (if the TopBar is enabled)"
+msgstr " La TopBar <strong>VÉRIFIERA</strong> les critères de page / catégorie pour déterminer si elle doit s’afficher sur la page d'accueil (si la TopBar est activée)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:424 lib/wp-topbar-display-functions.php:429 lib/wp-topbar-display-functions.php:434 lib/wp-topbar-display-functions.php:439
+msgid "Control check"
+msgstr "Vérification du contrôle"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:424
+msgid " TopBar is only checking for Page IDs (if any are entered and the TopBar is enabled)"
+msgstr "TopBar vérifie seulement les ID de page (si certains sont entrés et si la TopBar est activée)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:429
+msgid " TopBar is only checking for Categories IDs (if any are entered and the TopBar is enabled)"
+msgstr "TopBar vérifie seulement les ID de catégories (si certains sont entrés et si la TopBar est activée)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:434
+msgid " TopBar is checking that Page IDs <strong>AND</strong> Category IDs (if any are entered and the TopBar is enabled)"
+msgstr "TopBar vérifie seulement les ID de page <strong>ET</strong> de catégorie (si certains sont entrés et si la TopBar est activée)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:439
+msgid " TopBar is checking that Page IDs <strong>OR</strong> Category IDs (if any are entered and the TopBar is enabled)"
+msgstr "TopBar vérifie seulement les ID de page <strong>OU</strong> de catégorie (si certains sont entrés et si la TopBar est activée)"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:448
+msgid "Live Preview of TopBar #:"
+msgstr "Aperçu de la TopBar No&nbsp;: "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:450
+msgid "This is how the TopBar will appear on the website."
+msgstr "Voici comment la barre apparaitra sur le site web."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:451
+msgid "To test the TopBar on your site, you can set the Page IDs (on the"
+msgstr "Pour tester la TopBar sur votre site, vous pouvez définir les ID de page (sur "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:451
+msgid "to a single page (and not your home page.) Then go to that Page to see how the TopBar is working.<br/> The first black line below represents the top of the screen.  The second black line represents the bottom of the TopBar.</p>"
+msgstr "sur une seule page (et non votre page d'accueil.) Ensuite, allez sur cette page pour voir comment la TopBar fonctionne.<br/> La première ligne noire ci-dessous représente le haut de l'écran. La deuxième ligne noire représente le bas de la TopBar.</ p>"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:455
+msgid "The <strong>Rotate TopBars</strong> option is turned on in the"
+msgstr "L'option <strong>Rotation des TopBars</strong> est activée dans "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:455
+msgid "With this turned ON, the Scrollable, Close Button, and Re-Open options are <strong>ignored and turned off</strong>."
+msgstr "Avec ceci d'activé, le défilement, le bouton de fermeture et les options de ré-ouverture sont <strong>ignorés et désactivés</strong>."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:457
+msgid "<strong>IF THE TopBar IS NOT RENDERING CORRECTLY</strong> in the Preview section below and is breaking the page, then your custom PHP needs to be fixed"
+msgstr "<strong>SI LA TOPBAR NE S'AFFICHE PAS CORRECTEMENT</strong> dans l'aperçu ci-dessous et casse la page, alors le fichier php personnalisé doit être corrigé."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:457
+msgid "You have two options To fix this this:"
+msgstr "Vous avez deux options pour réparer cela :"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:458
+msgid "Append"
+msgstr "Ajouter"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:458
+msgid "to the url when you are trying to edit a TopBar.  e.g."
+msgstr "vers l'URL lorsque vous essayez de modifier une TopBar. Par ex."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:458
+msgid "Hit <code>enter</code> to reload the page. You should now be able to edit the custom php."
+msgstr "Tapez sur <em>entrée</em> pour recharger la page. Vous devriez alors pouvoir modifier le php personnalisé."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:459
+msgid "Go into your database tool (usually using phpMyAdmin), find the wp-topbar table and delete the offending row."
+msgstr "Rendez-vous dans votre base de données (d'habitude avec phpMyAdmin), recherchez la table wp-topbar et supprimer la ligne qui pose problème."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:521
+msgid "All TopBars deleted; created default TopBar."
+msgstr "Toutes les TopBars ont été supprimées&nbsp;: une TopBar par défaut a été créée."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:549
+msgid "Listing of all TopBars"
+msgstr "Liste de toutes les TopBars"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:554
+msgid "Overview"
+msgstr "Vue générale"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:559
+msgid "Step-by-Step"
+msgstr "Pas à pas"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:564
+msgid "Select a TopBar to edit.  You can also enable, disable, bulk duplicate or delete your TopBars from here.<br /><br />Use the"
+msgstr "Sélectionnez une TopBar à modifier. Vous pouvez également activer, désactiver, dupliquer ou supprimer vos TopBars à partir d'ici.<br /><br /> Utilisez "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:565
+msgid "Test Priority tab"
+msgstr "L'onglet Test de priorité"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:565
+msgid "to see how the plugin will randomly select 10 TopBars.<br /><br />The table below shows you the Priority and Start/Stop times for each TopBar.  It also tells you if a TopBar will show based on the current time and if that TopBar is enabled.   It will also show you if it will show only for logged in users or all users.<br /><br />Use the"
+msgstr "pour voir comment l'extension choisira au hasard 10 TopBars.<br /><br />Le tableau ci-dessous vous montre la priorité et les temps de démarrage / arrêt pour chaque TopBar. Il vous indique également si une TopBar s'affiche en fonction de l'heure actuelle et si cette TopBar est activée. Vous verrez également si elle ne s'affiche que pour les utilisateurs connectés ou pour tous les utilisateurs. <br /><br />Utilisez "
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:567
+msgid "to affect how all TopBars are processed."
+msgstr "pour affecter la façon dont toutes les TopBars sont traitées."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:572
+msgid "1.  Select the TopBar to edit by hovering over the row and selecting the Main Options link.<br />&nbsp&nbsp&nbsp&nbsp<strong>OR</strong><br />&nbsp&nbsp&nbsp&nbspHit the <strong>Create Default Row</strong> button below to insert a default TopBar at end of the table.  Find it and edit it.<br />&nbsp&nbsp&nbsp&nbsp<strong>OR</strong><br />&nbsp&nbsp&nbsp&nbspGo to the"
+msgstr "1.  Selectionnez la TopBar pour modifier en passant au dessus de la ligne et en sélectionnant le liens des options principales.<br />&nbsp&nbsp&nbsp&nbsp<strong>OU</strong><br />&nbsp&nbsp&nbsp&nbspHit the <strong>Créez une ligne par défaut</strong> avec le bouton ci-dessous pour insérer une TopBar par défaut à la fin du tableau.  Trouvez la et modifiez la.<br />&nbsp&nbsp&nbsp&nbsp<strong>OU</strong><br />&nbsp&nbsp&nbsp&nbspAllez vers"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:576
+msgid "Sample TopBar tab"
+msgstr "L'onglet Exemples de TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:576
+msgid "(above) and select one or more TopBars to add to the table below.<br />2.  Change the various options to configure the TopBar, using the Tabs to setup how the TopBar looks.  Explore each tab to see all the options.<br />3.  Go back to the Main Options tab and toggle the Enable switch to allow the TopBar to be shown.<br />4.  Go back to the All TopBars tab to add more TopBars. Add and customize as many TopBars as you need.<br />5.  Now, every time a web page is displayed, the plugin builds all of the TopBars that match the Control Tab and Time criteria.<br />&nbsp&nbsp&nbsp&nbspA TopBar is randomly selected (although, the Priority Weighting can be used to give one TopBar more preference than another.)<br />&nbsp&nbsp&nbsp&nbspThey are built in such a way that your cacheing plugin will cache the results."
+msgstr "(ci-dessus) et sélectionnez une ou plusieurs TopBars à ajouter au tableau ci-dessous.<br /> 2. Changez les différentes options pour configurer la TopBar, en utilisant les onglets pour configurer son aspect. Explorez chaque onglet pour voir toutes les options.<br /> 3. Retournez à l'onglet Options principales et basculez l'option d'activation pour permettre à la TopBar de s'afficher. <br /> 4. Retournez à l'onglet Toutes les TopBars pour ajouter plus de TopBars. Ajoutez et personnalisez autant de TopBars que nécessaire.<br /> 5. Maintenant, chaque fois qu'une page Web s'affiche, l'extension construit toutes les TopBars qui correspondent aux critères de l'onglet de contrôle et de temps.<br />&nbsp&nbsp&nbsp&nbsp Une TopBar est sélectionnée au hasard (bien que, la pondération de priorité peut être utilisée pour donner à une TopBar plus de préférence qu'à une autre.)<br />&nbsp&nbsp&nbsp&nbspElles sont construites de telle manière que votre extension de cache mettra en cache les résultats."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:589
+msgid "Create Default Row"
+msgstr "Créer le rang par défaut"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:596
+msgid "Delete"
+msgstr "Supprimer"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:597 lib/wp-topbar-display-functions.php:650 lib/wp-topbar-display-functions.php:651
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:598 lib/wp-topbar-display-functions.php:642 lib/wp-topbar-display-functions.php:643 lib/wp-topbar-social-tab.php:77
+msgid "Enable"
+msgstr "Activer"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:599 lib/wp-topbar-display-functions.php:646 lib/wp-topbar-display-functions.php:647 lib/wp-topbar-display-functions.php:962
+msgid "Disable"
+msgstr "Désactiver"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:600
+msgid "Increase Priority by 10"
+msgstr "Augmenter la priorité de 10"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:601
+msgid "Decrease Priority by 10"
+msgstr "Diminuer la priorité de 10"
+
+#: lib/wp-topbar-display-functions.php:616
+msgid "Start<br/>Time"
+msgstr ""
+"Heure<br />\n"
+"de début"
+
+#: lib/wp-topbar-display-functions.php:617
+msgid "End<br/>Time"
+msgstr ""
+"Heure<br />\n"
+"de fin"
+
+#: lib/wp-topbar-display-functions.php:618
+msgid "Time<br/>Check"
+msgstr ""
+"Vérification<br />\n"
+"de l'heure"
+
+#: lib/wp-topbar-display-functions.php:619
+msgid "Enabled"
+msgstr "Activé(e)"
+
+#: lib/wp-topbar-display-functions.php:620
+msgid "Restrictions"
+msgstr "Restrictions"
+
+#: lib/wp-topbar-display-functions.php:621 lib/wp-topbar-sample-tab.php:196
+msgid "Sample"
+msgstr "Exemple"
+
+#: lib/wp-topbar-display-functions.php:781
+#, php-format
+msgid "%d TopBar"
+msgid_plural "%d TopBars"
+msgstr[0] "%d TopBar"
+msgstr[1] "%d TopBars"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:810
+#, php-format
+msgid "%d row changed priority by +10."
+msgid_plural "%d rows changed priority by +10."
+msgstr[0] "GB %d rang à changé la priorité par +10."
+msgstr[1] "GB %d rangs ont changé la priorité par +10."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:828
+#, php-format
+msgid "%d row changed priority by -10."
+msgid_plural "%d rows changed priority by -10."
+msgstr[0] "GB %d rang a changé la priorité par -10."
+msgstr[1] "GB %d rangs ont changé la priorité par -10."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:845
+#, php-format
+msgid "%d row disabled."
+msgid_plural "%d rows disabled."
+msgstr[0] "GB %d rang désavtivé."
+msgstr[1] "GB %d rangs désactivés."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:862
+#, php-format
+msgid "%d row enabled."
+msgid_plural "%d rows enabled."
+msgstr[0] "GB %d rang activé."
+msgstr[1] "GB %d rangs activés."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:878
+#, php-format
+msgid "%d row deleted."
+msgid_plural "%d rows deleted."
+msgstr[0] "GB %d rang supprimé."
+msgstr[1] "GB %d rangs supprimés."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:898
+#, php-format
+msgid "%d row duplicated."
+msgid_plural "%d rows duplicated."
+msgstr[0] "GB %d rang dupliqué."
+msgstr[1] "GB %d rangs dupliqués."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:936
+#, php-format
+msgid "Test Priority of TopBars - Displaying %d TopBars"
+msgstr "Tester la priorité des TopBars - Affichage de %d Topbars"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:939
+msgid "This shows how the Plugin will show a random select a set of TopBars.  Only those TopBars that are enabled and pass the Time Check will be part of the selection pool. The Priority value is used to skew how often a TopBar is shown.  A higher number means that TopBar will be selected more frequently; a lower number means less frequently."
+msgstr "Ceci montre comment l'extension affichera une sélection au hasard d'un ensemble de TopBars. Seules les TopBars qui sont activées et ont passées le la vérification de temps feront partie du pool de sélection. La valeur de priorité est utilisé pour modifer le nombre de fois qu'une TopBar s'affiche. Un nombre plus élevé signifie que la TopBar sera choisie plus fréquemment&nbsp; un nombre inférieur signifie moins fréquemment."
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:944 lib/wp-topbar-display-functions.php:950
+msgid "ID"
+msgstr "ID"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:946 lib/wp-topbar-display-functions.php:952
+msgid "TopBar"
+msgstr "TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-display-functions.php:994
+msgid "No TopBars are enabled"
+msgstr "Aucune TopBar d'activée"
+
+# @ wp-topbar
+#: lib/wp-topbar-export.php:43
+msgid "Select the <strong>Export Options</strong> buttons to create either a CSV, SQL (insert) or JSON file for download.   Future versions will include an import functions."
+msgstr "Sélectionnez <strong>Options d'exportation</strong> pour créer un fichier CSV, SQL (insert) ou JSON pour le téléchargement. Les futures versions comprendront des fonctions d'importation."
+
+# @ wp-topbar
+#: lib/wp-topbar-export.php:44
+msgid "Note: Any PHP options you have entered may cause the CSV export to break a single TopBar into multiple rows in the CSV file."
+msgstr "Remarque&nbsp;: Les options de PHP que vous avez saisies peuvent provoquer lors de l'exportation CSV l'éclatement d'une TopBar unique en plusieurs lignes dans le fichier CSV."
+
+# @ wp-topbar
+#: lib/wp-topbar-export.php:54
+msgid "Export Options in JSON Format"
+msgstr "Exporter les options au format JSON"
+
+# @ wp-topbar
+#: lib/wp-topbar-export.php:55
+msgid "Export Options in SQL Format"
+msgstr "Exporter les options au format SQL"
+
+# @ wp-topbar
+#: lib/wp-topbar-export.php:56
+msgid "Export Options in CSV Format"
+msgstr "Exporter les options au format CSV"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:34
+msgid "Main Options"
+msgstr "Options principales"
+
+#: lib/wp-topbar-main-tab.php:90
+msgid "Only show the TopBar when the user scrolls the page?  If the user scrolls back to the top of the page, the TopBar gracefully fades away.  Note, if this is to On, the TopBar ignores the Display Time value below.</br></br>Also, <strong>it works best</strong> when the Forced TopBar Option (above) is set to <code>yes</code> or the CSS has the <code>position</code> fixed: e.g. <code>position:fixed; top: 40; padding:0; margin:0; width: 100%; z-index: 99999;</code>.</br></br>Default is <code>Off</code>, this will show the scrollbar even if the user does not scroll the page.  See:"
+msgstr "Afficher la TopBar uniquement lorsque l'utilisateur fait défiler la page&nbsp? Si l'utilisateur fait défiler en arrière vers le haut de la page, la TopBar s'estompe avec grâce. Remarquez que, si c'est sur On, la TopBar ignore la valeur de durée d'affichage ci-dessous.</br></br>De plus, <strong>cela fonctionne mieux</strong> lorsque l'option TopBar forcée (ci-dessus) ets défnie à <code>yes</code> ou le CSS a cette <code>position</code> fixe&nbsp;: par exemple, <code>position:fixed; top: 40; padding:0; margin:0; width: 100%; z-index: 99999;</code>.</br></br>Par défaut la valeur est <code>Off</code>, ce qui va afficher la barre de défilement même si l'utilisateur ne fait pas défiler la page. Regardez&nbsp;:"
+
+#: lib/wp-topbar-main-tab.php:133
+msgid "Enter the amount of time (in milliseconds) for the TopBar to remain on the page.  <strong>This option is ignored if you set the TopBar to be Reopened</strong> Enter 0 for the TopBar to not disappear."
+msgstr "Entrez le temps (en millisecondes) pendant lequel la TopBar doit rester sur la page. <strong>Cette option est ignorée si vous avez permis la réouverture de la TopBar</strong>. Entrez 0 pour que la TopBar ne disparaisse pas."
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:140
+msgid "Bottom border height (px)"
+msgstr "Hauteur de la bordure du bas (px)"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:146
+msgid "Enter the height of the bottom of the border.  Default is <code>3px</code>"
+msgstr "Entrez la hauteur du bas de la bordure. Par défaut : <code>3px</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:153
+msgid "Top padding (px)"
+msgstr "Top padding (px)"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:159
+msgid "Enter the top padding.  Default is <code>8px</code>"
+msgstr "Entrez la valeur du padding supérieur. Par défaut : <code>8px</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:163
+msgid "Bottom padding (px)"
+msgstr "Bottom padding (px)"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:169
+msgid "Enter the bottom padding.  Default is <code>8px</code>"
+msgstr "Entrez la valeur du padding inférieur. Par défaut : <code>8px</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:176
+msgid "Top margin (px)"
+msgstr "Top margin (px)"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:182
+msgid "Enter the top margin.  Default is <code>0px</code>"
+msgstr "Entrez la valeur de la marge supérieure. Par défaut : <code>0px</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:186
+msgid "Bottom margin (px)"
+msgstr "Bottom margin (px)"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:192
+msgid "Enter the bottom margin.  Default is <code>0px</code>"
+msgstr "Entrez la valeur de la marge inférieure. Par défaut : <code>0px</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:196
+msgid "Left margin (px)"
+msgstr "Left margin (px)"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:202
+msgid "Enter the left margin.  Default is <code>0px</code>"
+msgstr "Entrez la valeur de la marge de gauche. Par défaut : <code>0px</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:206
+msgid "Right margin (px)"
+msgstr "Right margin (px)"
+
+# @ wp-topbar
+#: lib/wp-topbar-main-tab.php:212
+msgid "Enter the right margin.  Default is <code>0px</code>;"
+msgstr "Entrez la valeur de la marge de droite. Par défaut : <code>0px</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-network-admin.php:168
+msgid "Network / Multi-Site Admin Page"
+msgstr "Page d'admin Réseau/Multi-site"
+
+# @ wp-topbar
+#: lib/wp-topbar-network-admin.php:211
+msgid "Network/Multisite Settings"
+msgstr "Réglages Réseau/Multi-site"
+
+# @ wp-topbar
+#: lib/wp-topbar-network-admin.php:214
+msgid "This page contains the Network/Multisite Settings that effect all TopBars."
+msgstr "Cette page contient tous les paramètres Réseau/Multi-site qui affectent toutes les TopBars."
+
+# @ wp-topbar
+#: lib/wp-topbar-network-admin.php:224
+msgid "ONLY Show Admin Pages for Multi-Site Network Admins"
+msgstr "Montrer UNIQUEMENT les pages d'administration pour les Admininstratuers du Réseau multi-site"
+
+# @ wp-topbar
+#: lib/wp-topbar-network-admin.php:232
+msgid "If you are using MultiSite, this will allow you to control if only the Network Admins will have access to the Admin Pages.<br/>The Admin must have the <code>manage_network_plugins</code> role assigned.  Default is <code>No</code>"
+msgstr "Si vous utilisez le MultiSite, ceci vous permettre de contrôler si uniquement les Administrateurs du Réseau doivent avoir accès  aux pages d'administration. <br/>L'Admin doit avoir le rôle <code>manage_network_plugins</code> assigné.  Défaut est <code>No</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-php-tab.php:31
+msgid "PHP Text"
+msgstr "Texte PHP"
+
+#: lib/wp-topbar-php-tab.php:34
+msgid "These are the settings to allow you to have custom PHP to be executed when the TopBar is created.</br></br><strong>THIS CAN BE SUPER DANGEROUS.  READ THIS CAREFULLY</strong></br></br>How does this work?  The code entered in the fields below are evaluated (using the php <code>eval()</code> function).</br></br>The plugin works by generating each TopBar in a single <code>&lt;div&gt;....&lt;/div&gt;</code> container.</br>The \"BEFORE\" code you enter below is evaluated <strong>after</strong> the starting <code>&lt;div&gt;</code> tag.</br>While the \"AFTER\" code you enter below is evaluated <strong>before</strong> the closing <code>&lt;/div&gt;</code> tag"
+msgstr "Ce sont les paramètres qui vous permettre d'avoir du code PHP personnalisé à exécuter lorsque la TopBar est créée. </br></br><strong>CELA PEUT ÊTRE SUPER DANGEREUX. LISEZ CECI ATTENTIVEMENT</strong></br></br>Comment ça marche&nbsp;? Le code entré dans les champs ci-dessous est évalué (en utilisant la fonction php <code>eval()</code>)</br></br>L'extension fonctionne en générant chaque TopBar en un seul conteneur <code>&lt;div&gt;....&lt;/div&gt;</code>.</br> Le code \"AVANT\" que vous entrez ci-dessous est évalué <strong>après</strong> la balise d'ouverture <code>&lt;div&gt;</code>.</br>Le code \"APRÈS\" que vous entrez ci-dessous est évalué <strong>avant</strong> la balise fermante <code>&lt;/div&gt;</code>."
+
+#: lib/wp-topbar-php-tab.php:42
+msgid "The new \"CONTROL\" code is used to select which TopBars are selected to be shown. It gives you even more control on which TopBars are chosen to be displayed.  Follow the instructions below on how to use it."
+msgstr "Le nouveau code \"CONTROL\" est utilisé pour sélectionner quelles TopBars seront affichées. Il vous donne encore plus de contrôle sur les TopBars choisies pour être affichées. Suivez les instructions ci-dessous sur la façon de l'utiliser."
+
+#: lib/wp-topbar-php-tab.php:46
+msgid "Enter any invalid PHP code, and you can BREAK your website.  Do not enter the code in PHP tags, i.e. <code>&lt;?php  echo \"Hi!\";  ?&gt;</code>.</br>You just enter any valid PHP, for example: <code>echo \"Hello World!\";</code>.</br>Do you want to enter HTML instead of PHP?  Just exit and and reenter PHP mode though using the appropriate PHP tags, e.g. <code>echo \"In PHP mode!\"; ?&gt; <strong>enter HTML here</strong> &lt?php echo \"Back in PHP mode!\";</code>.</br></br><strong>Make sure to always end in PHP mode!</strong></br></br>The passed code must be valid PHP. This includes terminating all statements using a semicolon. <code>echo \"Hi!\"</code> for example will cause a parse error, whereas <code>echo \"Hi!\";</code> will work.</br>A return statement will immediately terminate the evaluation of the code.</br></br>The code will be executed in the scope of the code calling eval(). Thus any variables defined or changed in the eval() call will remain visible after it terminates.  Here is a list of the main variables that are used to display the TopBar that can be modified by the <strong>\"BEFORE\"</strong> PHP"
+msgstr "Entrez un code PHP non valide, et vous pouvez CASSER votre site Web. Ne saisissez pas le code des balises PHP, par exemple  <code>&lt;?php echo \"Salut&nbsp;!\"; ?&gt;</code>. Il suffit de saisir tout PHP valide, par exemple&nbsp;: <code>echo \"Bonjour tout le monde&nbsp;!\";</code>.</br>Vous Voulez entrer du HTML au lieu de PHP&nbsp;!? Sortez simplement et entrez à nouveau en mode PHP mais en utilisant les balises PHP appropriées, par exemple, <code>echo \"En mode PHP&nbsp;!\";?&gt; <strong>saisissez le HTML ici</strong> &lt?php echo \"De retour en mode PHP&nbsp;!\";</code>.</br></br><strong> Assurez-vous de toujours terminer en mode PHP&nbsp;!<strong>.</br></br>Le code PHP passé doit être valide. Cela inclut que toutes les lignes de commandes se terminent par un point virgule. <code>echo \"Salut&nbsp;!\"</code> par exemple va provoquer une erreur d'analyse, alors que <code>echo \"Salut&nbsp;!\"; </code> fonctionnera.</br>Une déclaration de retour mettra immédiatement fin à l'évaluation du code.</br></br>Le code sera exécuté dans le cadre du code appelant eval(). Ainsi toutes les variables définies ou modifiées dans l'appel eval() resteront visibles après il se termine. Voici une liste des principales variables qui sont utilisés pour afficher la TopBar qui peuvent être modifiées par le PHP<strong>«&nbsp;!AVANT&nbsp;!»</strong>."
+
+# @ wp-topbar
+#: lib/wp-topbar-php-tab.php:66
+msgid "You can use the <strong>Live Preview</strong> (found above) to see your results (of course, you must update the settings to see any changes.)"
+msgstr "Vous pouvez utiliser l'<strong>Aperçu</strong> (qui se trouve ci-dessus) pour voir vos résultats (bien sûr, vous devez mettre à jour les réglages pour voir les changements.)"
+
+# @ wp-topbar
+#: lib/wp-topbar-php-tab.php:67
+msgid "Note:  If you have multiple TopBars, this PHP code is ALWAYS executed when the HTML is generated for each TopBar (even if that TopBar is not randomly selected to be shown on your website.)"
+msgstr "Remarque&nbsp;: Si vous avez plusieurs TopBars, ce code PHP est TOUJOURS exécuté lorsque le HTML est généré pour chaque TopBar (même si ce n'est pas la TopBar choisie au hasard pour être affichée sur votre site.)"
+
+# @ wp-topbar
+#: lib/wp-topbar-php-tab.php:75
+msgid "USE AT YOUR OWN RISK"
+msgstr "UTILISER À VOS RISQUES ET PÉRILS"
+
+# @ wp-topbar
+#: lib/wp-topbar-php-tab.php:80
+msgid "Sample PHP code to use in the \"BEFORE\" code: Check if a user is logged in, if so then customize the TopBar text -- otherwise add a second topbar"
+msgstr "Exemple de code PHP à utiliser dans le code \"AVANT\"&nbsp;: vérifie si un utilisateur est connecté, si oui alors personnalise le texte de la TopBar -- sinon ajouter une deuxième topbar"
+
+# @ wp-topbar
+#: lib/wp-topbar-php-tab.php:93
+msgid "Enter any PHP to use BEFORE the TopBar is generated"
+msgstr "Entrez n'importe quel PHP à utiliser AVANT que la TopBar soit générée"
+
+# @ wp-topbar
+#: lib/wp-topbar-php-tab.php:106
+msgid "Enter any PHP to use AFTER the TopBar is generated"
+msgstr "Entrez n'importe quel PHP à utiliser APRÈS que la TopBar soit générée"
+
+#: lib/wp-topbar-php-tab.php:119
+msgid "Enter any PHP function to Control if the the TopBar is selected to be shown. Have your function set <code>$wptbControlExit = true;</code> if you want the TopBar to not be selected.  This OVERRIDES every other control option available on the Control tab."
+msgstr "Saisissez n'importe quelle fonction PHP pour contrôler si la TopBar est sélectionnée pour s'afficher. Assurez-vous de configurer votre fonction avec <code>$wptbControlExit = true;</code> si vous voulez que la TopBar ne soit pas sélectionnée. Ceci REMPLACE toutes les autres options de commande disponibles dans l'onglet de configuration."
+
+#: lib/wp-topbar-php-tab.php:123
+msgid "Sample PHP code to use for the \"CONTROL\" code: Use this to only display this TopBar only between 7PM and 10PM, use this code"
+msgstr "Exemple de code PHP à utiliser pour le code \"CONTROL\"&nbsp;: Servez-vous de cette option pour afficher cette TopBar seulement entre 7h et 10h. Utilisez ce code"
+
+#: lib/wp-topbar-pointer.php:78
+msgid "New Features in Version 5.25!"
+msgstr "Les nouvelles fonctionnalités de la version 5.25 !"
+
+#: lib/wp-topbar-pointer.php:79
+msgid "Version 5.25 adds more options to control which TopBars are shown.<br/><br/>You can now have the TopBar excluded from sticky posts, pages, archives, and more - found on the Control Tab for each TopBar.<br/><br/>There is also a new PHP option to give you more granular control around which TopBars are selected to show — of course, use at your own risk - found on the PHP Tab for each TopBar"
+msgstr "La version 5.25 ajoute plus d'options pour contrôler les TopBars affichées. <br/><br/>Vous pouvez maintenant exclure la TopBar des articles mis en avant, des pages, des archives, et plus encore - présent sur l'onglet de contrôle de chaque TopBar.<br/><br/> Il y a aussi une nouvelle option PHP pour vous donner un contrôle plus granulaire autour des TopBars choisies pour s'afficher - à utiliser bien sûr à vos risques et périls - présente sur l'onglet PHP pour chaque TopBar."
+
+# @ wp-topbar
+#: lib/wp-topbar-pointer.php:88
+msgid "Samples!"
+msgstr "Exemples !"
+
+# @ wp-topbar
+#: lib/wp-topbar-pointer.php:89
+msgid "Check out these samples to see how you can customize your own TopBar.  You can copy any (or all) the samples for easy customizing to your needs."
+msgstr "Découvrez ces échantillons pour voir comment vous pouvez personnaliser votre propre TopBar. Vous pouvez copier n'importe lequel (ou la totalité) des échantillons pour réaliser vos personnalisation facilement selon vos besoins."
+
+# @ wp-topbar
+#: lib/wp-topbar-sample-tab.php:170
+msgid "You can copy one row (by hovering over the TopBar and clicking the Copy TopBar link.)  Or you can copy multiple samples by clicking on their checkboxes and then using the drop down box on the Bulk Options to copy those TopBars."
+msgstr "Vous pouvez copier une ligne (en survolant la TopBar et en cliquant sur le lien Copier TopBar.) Ou vous pouvez copier plusieurs échantillons en cliquant sur les cases correspondantes, puis en utilisant le menu déroulant sur les options groupées pour copier ces TopBars."
+
+#: lib/wp-topbar-sample-tab.php:172
+msgid "Attempting to load custom TopBars from this location"
+msgstr "Tentative de chargement de la TopBar à partir de cet emplacement."
+
+#: lib/wp-topbar-sample-tab.php:173
+msgid "To load your own Custom Samples Topbars, go to the"
+msgstr "Pour charger vos propres exemples de TopBars personnalisés, rendez-vous sur"
+
+# @ wp-topbar
+#: lib/wp-topbar-sample-tab.php:183
+msgid "Copy to TopBar Table"
+msgstr "Copier dans le tableau TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-sample-tab.php:261
+#, php-format
+msgid "%d row copied."
+msgid_plural "%d rows copied."
+msgstr[0] "%d ligne copiée."
+msgstr[1] "%d lignes copiées."
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:35
+msgid "This page contains the Global Settings that effect all TopBars."
+msgstr "Cette page contient tous les paramètres principaux qui affectent toutes les TopBars."
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:53
+msgid "TopBars will rotate, after a user set delay.  Note that the Scrollable Option, Close Button and Re-Open options on each TopBar are ignored.  That is, the TopBars that are displayed will not be Scrollable nor can they be Closed (or Reopened).  Default is <code>No</code>"
+msgstr "Les topbars tourneront, après un délai défini par l'utilisateur. Notez que l'option de défilement, le bouton de fermeture et les options de réouverture sur chaque TopBar sont ignorés. Autrement dit, les topbars qui sont affichés ne pourront pas défiler ni être fermés (ou réouvertes). Par défaut c'est <code>No</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:63
+msgid "Enter the amount of time (in milliseconds) for the TopBar to delay before displaying each TopBar.  No TopBar will be displayed during this time.  Enter 0 for no delay. Default is <code>1000</code>"
+msgstr "Entrez le temps (en millisecondes) entre chaque affichage d'une TopBar.  Aucune TopBar ne sera affichée pendant ce délai. Entrez 0 pour aucun retard. Par défaut la valeur est <code>1000</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:73
+msgid "Enter the amount of time (in milliseconds) for the TopBar to display before rotating for the next TopBar.  Enter 0 for no delay (not recommended!)  Default is <code>9000</code>."
+msgstr "Entrez le temps (en millisecondes) durant lequel chaque TopBar s'affichera avant de passer à la suivante. Entrez 0 pour aucune durée (non recommandé&nbsp;!). Par défaut la valeur est <code>9000</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:83
+msgid "Enter the number of times the TopBar should be shown.  Enter 0 to continuously rotate.  Default is <code>0</code>."
+msgstr "Entrez le nombre de fois que la TopBar doir être affichée. Entrez 0 pour une rotation continue.  Défaut est <code>0</code>."
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:87
+msgid "Hide Last TopBar on Rotation"
+msgstr "Masquer la dernière TopBar sur la Rotation"
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:95
+msgid "If you have selected to limit the number of TopBars that are shown in rotation, this option determines whether the last TopBar is hidden or stays on the the page.  Default is <code>Yes</code>"
+msgstr "Si vous avez choisi de limiter le nombre des TopBars qui s'affichent en rotation, cette option détermine si la dernière TopBar est cachée ou si elle reste sur la la page.  Par défaut la valeur est <code>Oui</code>"
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:99
+msgid "Rotate Order"
+msgstr "Ordre de rotation"
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:102
+msgid "Random Order"
+msgstr "Ordre aléatoire"
+
+# @ wp-topbar
+#: lib/wp-topbar-settings-tab.php:103
+msgid "By Priority"
+msgstr "Par priorité"
+
+#: lib/wp-topbar-settings-tab.php:107
+msgid "This selects the order that the TopBars will be shown:</br>&nbsp;&nbsp;<strong>Random Order</strong> selects them in a random order. Then rotates through them in that order (and thus, is not cacheable.).</br>&nbsp;&nbsp;<strong>Priority Order</strong> selects them in descending order of priority.</br>&nbsp;Default is <code>Priority Order</code>"
+msgstr "Ceci sélectionne l'ordre dans lequel les TopBars apparaîtront&nbsp;:</br> &nbsp;&nbsp;<strong>Ordre aléatoire</strong> les sélectionne dans un ordre aléatoire. Elles tournent ensuite entre elles dans cet ordre (et ne sont donc ne pas mise en cache).</br>&nbsp;&nbsp;<strong>Ordre de priorité</strong> les sélectionne dans l'ordre décroissant de priorité.</br>&nbsp;La valeur par défaut est <code>Ordre de priorité</code>"
+
+#: lib/wp-topbar-settings-tab.php:114
+msgid "Custom Samples URL"
+msgstr "URL de l'exemple personnalisé"
+
+#: lib/wp-topbar-settings-tab.php:117
+msgid "Enter the URL of a directory where a JSON file and related images are stored. These will be included in the Samples Tab.  You must name the JSON file <code>custom_topbars.json</code>"
+msgstr "Saisissez l'URL d'un répertoire où sont stockés un fichier JSON et les images qui lui sont liées. Elles figureront dans l'onglet Exemples.  Vous devez nommer le fichier JSON <code>custom_topbars.json</code>."
+
+#: lib/wp-topbar-settings-tab.php:118
+msgid "For example, the Directory could be named"
+msgstr "Par exemple, le répertoire pourrait être intitulé"
+
+#: lib/wp-topbar-settings-tab.php:120
+msgid "To create your own Samples, export your existing TopBars in JSON format. Then rename that file to <code>custom_topbars.json</code>. Now move that file, plus any images you need into the directory you entered above."
+msgstr "Pour créer vos propres exemples, exportez vos TopBars existantes au format JSON. Ensuite, renommez le fichier <code>custom_topbars.json</code>. Maintenant, déplacez ce fichier, plus les images dont vous avez besoin dans le répertoire que vous avez entré ci-dessus."
+
+#: lib/wp-topbar-settings-tab.php:125
+msgid "Your <code>custom_topbars.json</code> file does not appear to be formatted correctly or is missing.  It does not appear to be a JSON formatted file."
+msgstr "Votre fichier <code>custom_topbars.json</code> ne semble pas être formaté correctement ou est absent. Il semblerait que ce n'est pas un fichier formaté en JSON."
+
+#: lib/wp-topbar-settings-tab.php:134
+msgid "Show TopBar Overview on Admin Pages"
+msgstr "Afficher l&rsquo;aperçu de la Topbar sur les pages de l&rsquo;admin"
+
+#: lib/wp-topbar-settings-tab.php:142
+msgid "If you don't need the Overview shown, you can turn off the Overview section on the Admin pages.  Default is <code>on</code>"
+msgstr "Si vous n'avez pas besoin d'afficher la vue d&rsquo;ensemble, vous pouvez la désactiver sur les pages d'administration. La valeur par défaut est <code>Oui</code>."
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:31
+msgid "Social Button Settings"
+msgstr "Paramètres des boutons sociaux"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:34
+msgid "These are the settings for settings the Social Buttons."
+msgstr "Les réglages pour paramétrer les boutons des réseaux sociaux."
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:35
+msgid "You have 10 buttons that you can add to the TopBar.  Each allows you to set the image, link and CSS.  The CSS is applied to the <code>&lt img &gt</code> tag."
+msgstr "Vous avez 10 boutons que vous pouvez ajouter à la TopBar.  Chacune vous permet de régler l'image, le lien et le CSS. Le CSS est appliqué à la balise <code>&lt img &gt</code>."
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:37
+msgid "Link Target Options"
+msgstr "Options de cible des liens"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:48
+msgid "Social Icons"
+msgstr "Icônes sociaux"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:66 lib/wp-topbar-social-tab.php:80 lib/wp-topbar-social-tab.php:87 lib/wp-topbar-social-tab.php:91 lib/wp-topbar-social-tab.php:111 lib/wp-topbar-social-tab.php:117
+msgid "Social Icon"
+msgstr "Icône social"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:80
+msgid "URL"
+msgstr "URL"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:111
+msgid "CSS"
+msgstr "CSS"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:117
+msgid "Position"
+msgstr "Position"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:122 lib/wp-topbar-textbar-tab.php:60
+msgid "Left"
+msgstr "Gauche"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:125 lib/wp-topbar-textbar-tab.php:62
+msgid "Right"
+msgstr "Droite"
+
+# @ wp-topbar
+#: lib/wp-topbar-social-tab.php:133
+msgid "Image size"
+msgstr "Taille de l'image"
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:34
+msgid "TopBar Text, Image and Link"
+msgstr "Text de TopBar, image et lien"
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:37
+msgid "These are the text, image and links to be used in the TopBar. The image is placed first (if any), then the text (if any) is overlaid on it.  Scale the image to fix your website.  If you enable the image (by selecting \"Yes\"), then the image will be used and the bar color will be ignored."
+msgstr "Il s'agit du texte, de l'image et des liens devant être utilisés dans la TopBar. L'image est placée en premier (le cas échéant), puis le texte (le cas échéant) lui est superposé. Adaptez la taille de l'image à votre site Web. Si vous activez l'image (en sélectionnant \"Oui\"), alors l'image sera utilisée et la couleur de la barre sera ignorée."
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:45
+msgid "Font size"
+msgstr "Taille de police"
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:50
+msgid "Enter the font size.  Default is"
+msgstr "Entrer la taille de police. Par défaut : "
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:57
+msgid "Text alignment"
+msgstr "Alignement du texte"
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:61
+msgid "Center"
+msgstr "Centré"
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:65
+msgid "Select how you want the text to align. Default is <code>center</code> When using right -- try adding padding [e.g. <code>padding-right:10px;</code>] via the"
+msgstr "Sélectionnez la façon d'aligner le texte que vous voulez. Par défaut la valeur est <code>center</code> Lorsque vous utilisez right - essayer d'ajouter padding [par exemple <code>padding-right:10px;</code>] via "
+
+# @ wp-topbar
+#: lib/wp-topbar-textbar-tab.php:65
+msgid "TopBar CSS & HTML tab"
+msgstr "Onglet du CSS & de l'HTML de la TopBar"
+
+# @ wp-topbar
+#: lib/wp-topbar-uninstall-tab.php:28
+msgid "Network Uninstall"
+msgstr "Désinstaller du réseau"
+
+# @ wp-topbar
+#: lib/wp-topbar-uninstall-tab.php:29 lib/wp-topbar-uninstall-tab.php:34
+msgid "Cancel"
+msgstr "Annuler"
+
+# @ wp-topbar
+#: lib/wp-topbar-uninstall-tab.php:48
+msgid "This operation deletes ALL TopBar data. If you continue, You will not be able to retrieve or restore your TopBars."
+msgstr "Cette opération supprime TOUTES les données de TopBar. Si vous continuez, vous ne pourrez récupérer ou restaurer vos TopBars."
+
+# @ wp-topbar
+#: lib/wp-topbar-uninstall-tab.php:51
+msgid "Since you are on a Multi Site install, this will delete the data for <strong>ALL</strong> blogs."
+msgstr "Comme vous êtes sur une installation en multi-site, cela va supprimer les données de <strong>TOUS</strong> les blogs."
+
+# @ wp-topbar
+#: lib/wp-topbar-uninstall-tab.php:53
+msgid "If you elect to uninstall, you will be redirected to the WordPress Plugin page so that you can de-activate and uninstall the Plugin."
+msgstr "Si vous décidez de désinstaller, vous serez redirigé vers la page WordPress des extensions de telle sorte que vous puissiez désactiver et désinstaller l'extension."

@@ -1,0 +1,396 @@
+.eventbutton>.active{
+    -webkit-animation: swing 1.5s infinite ease;
+    animation: swing 1.5s infinite ease;
+}
+.um-profile-edit{
+    display: none;
+}
+
+
+@-webkit-keyframes swing
+{
+    10%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    20%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    25%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);        
+    }
+    30%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);        
+    }
+    33%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);        
+    }
+    36%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);        
+    }
+}
+@keyframes swing
+{
+    10%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    20%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    25%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);        
+    }
+    30%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);        
+    }
+    33%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);        
+    }
+    36%
+    {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);        
+    }
+
+}
+.pushguest div{
+    -webkit-animation: swingup 3s infinite ease;
+    animation: swingup 3s infinite ease;
+}
+
+@-webkit-keyframes swingup
+{
+    2%
+    {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    4%
+    {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    5%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);        
+    }
+    6%
+    {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);        
+    }
+    6,5%
+    {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);        
+    }
+    7%
+    {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);        
+    }
+}
+@keyframes swingup
+{
+    2%
+    {
+        -webkit-transform: translateY(10px);
+        transform: translateY(10px);
+    }
+    4%
+    {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+    5%
+    {
+        -webkit-transform: translateY(5px);
+        transform: translateY(5px);        
+    }
+    6%
+    {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);        
+    }
+    6,5%
+    {
+        -webkit-transform: translateY(2px);
+        transform: translateY(2px);        
+    }
+    7%
+    {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);        
+    }
+}
+#page-wrap{
+    padding-top:0;
+}
+.none.span9.single{
+    padding-top: 45px;
+}
+.side-navigation .logo{
+    display: none;
+}
+#header .logo .logo_text,
+#fixed_header .logo .logo_text{
+    text-transform: none;
+    color: #ba9665;
+}
+#fixed_header{
+    display: none;
+}
+#copyright {
+    background: #3a3a3a;
+    color: #ffffff;
+    display: none;
+}
+.um-followers-bar {
+    padding: 10px 10px 10px 0;
+    border: #091538 1px solid;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.um-7343.um .um-profile-meta{
+    border: #091538 1px solid;
+    min-height: 98px;
+}
+
+
+                
+
+
+
+.um-7343.um .um-profile-photo a.um-profile-photo-img,
+.um-7343.um .um-profile-photo img,
+.um-7343.um .um-profile-photo span.um-profile-photo-overlay{ 
+    -moz-border-radius: 0px !important; -webkit-border-radius: 0px !important; border-radius: 0px !important 
+}
+.um-7343.um .um-profile-photo {
+    width: 210px;
+}
+.um-7343.um .um-profile-body {
+    max-width: 1100px;
+}
+.um-7343.um .um-profile-photo a.um-profile-photo-img {
+    width: 150px;
+    height: 150px;
+}
+.um-7343.um .um-profile-photo a.um-profile-photo-img {
+    top: 7px;
+}
+.um-7343.um .um-profile-meta {
+    padding-left: 210px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+.um-7343.um .um-profile-meta {
+    color: #999999;
+}
+.um-7343.um .um-name a {
+    color: #555555;
+}
+.um-7343.um .um-name a:hover {
+    color: #444444;
+}
+.um-7343.um .um-profile-headericon a {
+    color: #aaaaaa;
+}
+.um-7343.um .um-profile-headericon a:hover,
+.um-7343.um .um-profile-edit-a.active {
+    color: #009fdd;
+}
+.um-profile-body.main{
+    padding: 5px 25px 25px 25px;margin: 0px 0px 30px 0px;border-width: 0px 0px 0px 0px;border-style: solid;border-radius: 0px;
+    border: #091538 1px solid
+}
+.vc_general.vc_cta3.vc_cta3-style-classic{
+    border-color: #ba965d;
+}
+.vc_tta-color-sky.vc_tta-style-classic .vc_tta-tab>a{
+    background-color: #091538;
+    border-color: #ffffff;
+}
+.vc_tta-color-sky.vc_tta-style-classic .vc_tta-tab.vc_active>a{
+    background-color: #ba965d;
+    color: white;
+}
+.um-profile-photo a.um-profile-photo-img{
+    padding: 0;
+}
+#main{
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+ul#side-nav > li > a{
+    font-weight: 100 !important;
+}
+#navigation ul.menu > li.menu-item > a{
+    border-radius: 0;
+}
+.start-event-button{
+
+}
+.side-navigation .start-event-button{
+    padding: 14px 12px !important;
+    margin-left: 35px;
+}
+.side-navigation .start-event-button.disabled{
+    background: #292d38 !important;
+    color: #5f5d5d !important;
+}
+.side-navigation .start-event-button.disabled:hover{
+    background: #292d38 !important;
+}
+.side-navigation .start-event-button.disabled{
+    display: none;
+}
+#active-profile-alert{
+    background-color:#fd3131;
+    color:#ffffff;
+    text-align:left;
+    margin-top: -20px;
+}
+.interkassa-btn{
+    display: none;
+}
+.clipboard-btn-copy i{
+    margin-right: 0;
+}
+/* скрываем поля в форме реги через соц.сети*/
+.um-social-login-wrap .um-field-text[data-key="first_name"],
+.um-social-login-wrap .um-field-text[data-key="last_name"] {
+    display: none;
+}
+.um-social-login-wrap .um-field-text {
+    display: none;
+}
+.um-social-login-wrap .um-field-text.active {
+    display: block;
+}
+.um-field-referer_id{
+    display:none;
+}
+
+#regpanel .toggle.style4{
+    display: none !important;
+}
+
+/* съехали иконки в колокольчике и соц.сетях - исправление */
+.um-profile-connect um-member-connect [class*=" um-faicon-"]:before, [class^=um-faicon-]:before{
+    line-height: inherit;
+}
+.um-icon-ios-bell:before{
+    line-height: 2;
+}
+
+
+.side-navigation.side-navigation-static{
+    padding:0 !important;
+}
+.sb-logo-title{
+    margin-bottom: 40px;
+    margin-top: 5px;
+}
+.sb-logo-title span{
+    display: block;
+    text-align: center;
+}
+.sb-logo-title span:first-child{
+    font-size: 23px;
+}
+.sb-logo-title span:last-child{
+    font-size: 33px;
+}
+
+.um-social-login-wrap .um-register{
+    max-width: 400px !important;
+}
+aside.side-navigation.side-navigation-static{
+    width: 270px;
+}
+ul#side-nav > li > a{
+    padding: 4px 20px;
+    border-bottom: 1px solid #171921;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+ul#side-nav > li:first-child > a{
+    border-top: 1px solid #171921;
+}
+ul#side-nav > li > a:hover{
+    background: #20222d;
+}
+ul#side-nav li a .sf-sub-indicator{
+    right: 16px;
+}
+
+@media only screen and (max-width: 782px){
+    #navigation .select-menu{
+        height: 37px !important;
+        width: 87% !important;
+    }
+}
+.event-slider-table td{
+    padding: 4px 10px;
+    font-size: 15px;
+}
+.event-slider-table th{
+    font-size: 18px !important;
+}
+
+
+.rasp-gm-uds,
+.rasp-gm-yoke,
+.rasp-bt-uds,
+.rasp-bt-yoke{
+    opacity: 0 !important;
+}
+.rasp-gm-uds.custom-table,
+.rasp-gm-yoke.custom-table,
+.rasp-bt-uds.custom-table,
+.rasp-bt-yoke.custom-table{
+    opacity: 1 !important;
+}
+
+
+#rev_slider_50_1_wrapper,
+#rev_slider_51_2_wrapper,
+#rev_slider_52_1_wrapper,
+#rev_slider_53_2_wrapper,
+#rev_slider_54_1_wrapper,
+#rev_slider_55_2_wrapper{
+    border: 1px solid #c0c3cc;
+    margin: 18px 0 !important;
+}
+
+.um-notification-b{
+    bottom: 88px;
+    width: 52px;
+    height: 52px;
+    line-height: 52px;
+}
+.menu-menu-container{
+    margin-top: 62px;
+}

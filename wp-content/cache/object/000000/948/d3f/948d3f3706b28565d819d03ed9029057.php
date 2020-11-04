@@ -1,0 +1,1 @@
+NÜV<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":4:{s:12:"last_checked";i:1457278299;s:7:"checked";a:2:{s:6:"Richer";s:5:"2.4.6";s:4:"back";s:5:"2.4.6";}s:8:"response";a:0:{}s:12:"translations";a:0:{}}}

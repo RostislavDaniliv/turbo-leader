@@ -1,0 +1,23 @@
+# BEGIN Redirect
+RewriteEngine on
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} ^alexgm\.hostenko\.com$ [NC]
+RewriteRule (.*) http://udsonline.ru/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} ^www\.alexgm\.hostenko\.com$ [NC]
+RewriteRule (.*) http://www.udsonline.ru/$1 [R=301,L]
+# END Redirect
+# BEGIN WordPress
+# Строки между `BEGIN WordPress` и `END WordPress` были созданы автоматически.
+# Они могут быть изменены только фильтрами WordPress.
+# Все изменения между этими отметками будут перезаписаны.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

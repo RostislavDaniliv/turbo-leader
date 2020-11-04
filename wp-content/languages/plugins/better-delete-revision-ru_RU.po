@@ -1,0 +1,155 @@
+# Translation of Plugins - Better Delete Revision - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Better Delete Revision - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-10-10 10:23:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Better Delete Revision - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.1e2.it/"
+msgstr "http://www.1e2.it/"
+
+#. Author of the plugin/theme
+msgid "Galerio & Urda"
+msgstr "Galerio & Urda"
+
+#. Description of the plugin/theme
+msgid "Better Delete Revision is based on the old \"Delete Revision\" plugin"
+msgstr "Better Delete Revision основан на старом плагине \"Delete Revision\""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.1e2.it/tag/better-delete-revision/"
+msgstr "http://www.1e2.it/tag/better-delete-revision/"
+
+#: better-delete-revision.php:350
+msgid "FAQ"
+msgstr "FAQ"
+
+#: better-delete-revision.php:332 better-delete-revision.php:349
+msgid "Settings"
+msgstr "Настройки"
+
+#: better-delete-revision.php:282
+msgid "Author:"
+msgstr "Автор:"
+
+#: better-delete-revision.php:279
+msgid "Thank you for using this plugin! I hope you enjoy it!"
+msgstr "Спасибо за использование плагина! Уверены, он вам понравился!"
+
+#: better-delete-revision.php:275
+msgid "The Better Delete Revision plugin is your #1 choice to quickly and easily removing revision from your Wordpress database. Try it out today to see what a lighter and smaller Wordpress database can do for you!"
+msgstr "Плагин Better Delete Revision это лучший выбор, если вам необходимо быстро и легко почистить базу данных Wordpress. Воспользуйтесь им и убедитесь, сколько можно сэкономить места в базе данных!"
+
+#: better-delete-revision.php:271
+msgid "Post Revisions are a feature introduced in Wordpress 2.6. Whenever you or Wordpress saves a post or a page, a revision is automatically created and stored in your Wordpress database. Each additional revision will slowly increase the size of your database. If you save a post or page multiple times, your number of revisions will greatly increase overtime. For example, if you have 100 posts and each post has 10 revisions you could be storing up to 1,000 copies of older data!"
+msgstr "Сохранение записей ревизий - это функция, появившаяся в Wordpress 2.6. Всякий раз, когда вы или Wordpress сохраняет пост или страницу, это изменение автоматически записывается в базе данных Wordpress. Каждая последующая ревизия постепенно увеличивает размер вашей базы данных. Чем больше вы сохраняете пост или страницу, тем больше общее количество ревизий. Например, если у вас 100 постов по 10 ревизий каждый, то вы будете хранить до 1000 записей старых ревизий!"
+
+#: better-delete-revision.php:266
+msgid "Optimize Your Database"
+msgstr "Оптимизировать вашу базу данных"
+
+#: better-delete-revision.php:265
+msgid "Check Revision Posts"
+msgstr "Проверить записи ревизий"
+
+#: better-delete-revision.php:258
+msgid "Optimize Wordpress Database"
+msgstr "Оптимизировать базу данных Wordpress"
+
+#: better-delete-revision.php:248
+msgid "red"
+msgstr "красный"
+
+#: better-delete-revision.php:247
+msgid "OK"
+msgstr "Ок"
+
+#: better-delete-revision.php:246
+msgid "If all statuses are %s, then your database does not need any optimization! If any are %s, then click on the following button to optimize your Wordpress database."
+msgstr "Если все статусы %s, то ваша база данных не нуждается в оптимизации. Если же %s, тогда кликните ниже, чтобы оптимизировать базу данных Wordpress."
+
+#: better-delete-revision.php:208
+msgid "Status"
+msgstr "Статус"
+
+#: better-delete-revision.php:207
+msgid "OP"
+msgstr "OP"
+
+#: better-delete-revision.php:206
+msgid "Table"
+msgstr "Таблица"
+
+#: better-delete-revision.php:199
+msgid "Optimization of database completed!"
+msgstr "Оптимизация базы данных закончена!"
+
+#: better-delete-revision.php:173
+msgid "Deleted %s revisions!"
+msgstr "Удалено %s ревизий!"
+
+#: better-delete-revision.php:147
+msgid "Great! You have no revisions now!"
+msgstr "Прекрасно! У вас нет больше ревизий!"
+
+#: better-delete-revision.php:142
+msgid "No , I prefer to keep them!"
+msgstr "Нет, лучше сохранить их!"
+
+#: better-delete-revision.php:141
+msgid "Yes , I would like to delete them! (A Total Of %s)"
+msgstr "Да, я хотел бы их удалить! (Всего %s)"
+
+#: better-delete-revision.php:137
+msgid "Would you like to remove the revision posts?"
+msgstr "Удалить записи ревизий?"
+
+#: better-delete-revision.php:123
+msgid "Last modified"
+msgstr "Последнее изменение"
+
+#: better-delete-revision.php:122
+msgid "Post date"
+msgstr "Дата поста"
+
+#: better-delete-revision.php:121
+msgid "Title"
+msgstr "Название"
+
+#: better-delete-revision.php:120
+msgid "Id"
+msgstr "Id"
+
+#: better-delete-revision.php:106
+msgid "redundant post revisions have been removed!"
+msgstr "избыточных ревизий постов было удалено!"
+
+#: better-delete-revision.php:106
+msgid "Since you started using Better Delete Revision"
+msgstr "С момента использования плагина Better Delete Revision "
+
+#: better-delete-revision.php:105
+msgid "posts"
+msgstr "записей"
+
+#: better-delete-revision.php:105
+msgid "You have"
+msgstr "У Вас"
+
+#: better-delete-revision.php:103
+msgid "Better Delete Revision Manager"
+msgstr "Менеджер Better Delete Revision"
+
+#. #-#-#-#-#  tmp-better-delete-revision.pot (Better Delete Revision 1.6.1) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: better-delete-revision.php:38
+msgid "Better Delete Revision"
+msgstr "Better Delete Revision "

@@ -1,0 +1,22 @@
+2020-10-27T18:53:28+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_item_data_hash() in /var/www/marik_ml4/data/www/turbo-leader.com/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:146
+Stack trace:
+#0 /var/www/marik_ml4/data/www/turbo-leader.com/wp-includes/class-wp-hook.php(288): WC_Cart_Session->get_cart_from_session('')
+#1 /var/www/marik_ml4/data/www/turbo-leader.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/marik_ml4/data/www/turbo-leader.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/marik_ml4/data/www/turbo-leader.com/wp-settings.php(550): do_action('wp_loaded')
+#4 /var/www/marik_ml4/data/www/turbo-leader.com/wp-config.php(196): require_once('/var/www/marik_...')
+#5 /var/www/marik_ml4/data/www/turbo-leader.com/wp-load.php(37): require_once('/var/www/marik_...')
+#6 /var/www/marik_ml4/data/www/turbo-leader.com/wp-admin/admin.php(34): require_once('/var/www/marik_...')
+#7 /var/www/marik_ml4/data/www/turbo-leader.com/wp-admin/user-edit.p в /var/www/marik_ml4/data/www/turbo-leader.com/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php на строке 146
+
+2020-10-27T18:55:46+00:00 CRITICAL Uncaught Error: Call to undefined function wc_get_cart_item_data_hash() in /var/www/marik_ml4/data/www/turbo-leader.com/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php:146
+Stack trace:
+#0 /var/www/marik_ml4/data/www/turbo-leader.com/wp-includes/class-wp-hook.php(288): WC_Cart_Session->get_cart_from_session('')
+#1 /var/www/marik_ml4/data/www/turbo-leader.com/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/marik_ml4/data/www/turbo-leader.com/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /var/www/marik_ml4/data/www/turbo-leader.com/wp-settings.php(550): do_action('wp_loaded')
+#4 /var/www/marik_ml4/data/www/turbo-leader.com/wp-config.php(196): require_once('/var/www/marik_...')
+#5 /var/www/marik_ml4/data/www/turbo-leader.com/wp-load.php(37): require_once('/var/www/marik_...')
+#6 /var/www/marik_ml4/data/www/turbo-leader.com/wp-admin/admin.php(34): require_once('/var/www/marik_...')
+#7 /var/www/marik_ml4/data/www/turbo-leader.com/wp-admin/user-edit.p в /var/www/marik_ml4/data/www/turbo-leader.com/wp-content/plugins/woocommerce/includes/class-wc-cart-session.php на строке 146
+

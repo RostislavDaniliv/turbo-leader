@@ -1,0 +1,125 @@
+#menu-block{
+	width: 100%;
+	background: #009fdd;
+    color: white;
+    z-index: 15;
+}
+
+#top-menu-container,
+#site-header .site-logo,
+#main-menu-block li a{
+	height: 56px;
+}
+
+#top-menu-container{
+	width: 100%;
+	background: #009fdd;
+	z-index: 15;
+	position: relative;
+}
+
+#site-header{
+    display: inline-block;
+    float: left;
+}
+
+#menu-block .user-name,
+#menu-block .site-title,
+#menu-block .user-dd,
+#main-menu-block li a{
+	line-height: 55px;
+	font-weight: 400;
+	text-transform: inherit;
+}
+
+#site-header .site-title{
+	font-weight: 400;
+	color:white;
+	float: left;
+}
+
+#site-header .site-logo{
+	width: 28px;
+	background: url(/wp-content/themes/Richer/pics/logo-icon-2.png) 0 center no-repeat;
+	float: left;
+}
+
+#main-menu-block{
+	float: right;
+	margin-right: 25px;
+}
+
+#main-menu-block li{
+	float: left;
+	list-style-type: none;
+}
+
+#main-menu-block li a{
+	color:white;
+	padding: 0 5px;
+    display: block;
+}
+
+#main-menu-block li a:hover{
+    background: #007fb1;
+}
+
+#user-profile-block{
+	position: relative;
+	float: right;
+	padding: 0 5px;
+}
+
+#user-profile-block .user-name{
+	float: left;
+	margin-right: 5px;
+}
+
+#user-profile-block .user-dd{
+	float:left;
+}
+
+#user-profile-block .user-ava{
+	width: 35px;
+	height: 35px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 5px;
+    line-height: 56px;
+    margin-top: 10px;
+}
+
+#user-profile-block:hover{
+    background: #007fb1;
+    cursor: pointer;
+}
+
+#nav-sub-menu{
+    position: absolute;
+    z-index: 10;
+    background: white;
+    top: 34px;
+    right: 0;
+    border: 1px solid #009fdd;
+    overflow: hidden;
+    top: -1000px;
+    width: 280px;
+}
+
+#side-nav-toggle li{
+	width: 268px;
+}
+
+#side-nav-toggle li a{
+	padding: 0 10px !important;
+    line-height: 30px;
+    border-bottom: rgba(0, 159, 221, 0.28) 1px solid !important;    
+	user-select: none;
+	position: relative;
+}
+
+.material-ripple > span {
+  position: relative;
+  display: block;
+}
+

@@ -1,0 +1,1 @@
+cTÜV<?php exit; ?>a:1:{s:7:"content";a:2:{s:6:"Richer";s:7:"/themes";s:4:"back";s:7:"/themes";}}

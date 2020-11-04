@@ -1,0 +1,168 @@
+#regpanel {
+    overflow-y: scroll;
+    background-color: #ffffff !important;
+    background-color: rgba(46, 61, 99, 0.88) !important;
+    position: fixed;
+    border-left: 1px solid #004973;
+    transition-duration: 1s;
+    top: 0px;
+    z-index: 99999;
+}
+#regpanel .vc_column_container{
+	padding-top: 40px;
+}
+#regpanel .toggle .toggle-title span{
+	height: 52px;
+	line-height: 52px;
+	text-align: center;
+}
+#regpanel .toggle .toggle-title .status-icon{
+	margin-top: 7px;
+}
+#regpanel .toggle.style4{
+    display: none !important;
+}
+#regpanel .container{
+    width: 100% !important;
+}
+#reg-title{
+	text-align: center;
+	font-size: 23px;
+	margin-bottom: 35px;
+	color: white;
+}
+.closeform {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.closeform:hover{
+	cursor: pointer;
+}
+.closeform .vc_icon_element-inner{
+	width: 30px !important;
+    height: 30px !important;
+    border: 1px solid black !important;
+    border-radius: 20px !important;
+    border-color: #434343 !important;
+    border-color: white !important;
+}
+.closeform .vc_icon_element-icon {
+    color: #434343 !important;
+    color: white !important;
+}
+
+@media screen and (min-width: 800px) {
+    #regpanel {
+        width: 25%;
+        height: 100%;
+        right: -26%;
+    }
+    #regpanel.active {
+        right: 0;
+        transition-property: right;
+        transition-duration: 1s;
+    }
+    #mobcontact {
+        display: none;
+    }
+    .closeform {
+        left: 10px;
+    }
+}
+@media screen and (min-width: 600px) and (max-width: 799px) {
+    #regpanel {
+        width: 40%;
+        height: 100%;
+        right: -41%;
+    }
+    #regpanel.active {
+        right: 0;
+        transition-property: right;
+        transition-duration: 1s;
+    }
+    #polosa {
+        display: none;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 599px) {
+    #regpanel {
+        width: 100%;
+        height: 100%;
+        right: -100%;
+    }
+    #regpanel.active {
+        right: 0;
+        transition-property: right;
+        transition-duration: 1s;
+    }
+    .wpb_wrapper.vc_figure {
+        display: none;
+    }
+    #polosa {
+        display: none;
+    }
+}
+#rev_slider_28_1_wrapper {
+    /*width:100% !important;*/
+}
+#polosa .vc_col-sm-9,
+#polosa .vc_col-sm-3 {
+    margin-bottom: 0;
+    color: #dedede;
+    font-weight: 400;
+}
+#polosa .vc_col-sm-9 {
+    text-align: right;
+}
+.editTemplateButton {
+    display: none;
+}
+.templatesite-button {
+    position: fixed !important;
+    top: 120px !important;
+    padding-left: 15px !important;
+}
+.templatesite-button input[type=submit] {
+    min-width: 330px !important;
+}
+.templatesite .um-field.um-field-um_block_8992_2.um-field-block {
+    padding: 0;
+}
+.um-social-login-wrap .um-field-text[data-key="first_name"],
+.um-social-login-wrap .um-field-text[data-key="last_name"] {
+    display: none;
+}
+.um-social-login-wrap .um-field-text {
+    display: none;
+}
+.um-social-login-wrap .um-field-text.active {
+    display: block;
+}
+.um-field-referer_id,
+.um-field-reg_site_id{
+	display:none;
+}
+.wpb_content_element{
+	margin-bottom: 0 !important;
+}
+
+/* Скрываем поля реги для йоки */
+.um-row .um-field-text[data-key="first_name"],
+.um-row .um-field-text[data-key="last_name"],
+.um-row .um-field-text[data-key="user_login"],
+.um-row .um-field-text[data-key="user_email"],
+.um-row .um-field-text[data-key="reg_site_url"],
+.um input.um-button{
+    display: none !important;
+}
+.vc_row .container{
+    max-width: 100%;
+}
+.text-center{
+	text-align: center;
+}
+.um-button-facebook,
+.um-button-vk{
+    box-shadow: 0 0 1px 1px white;
+}

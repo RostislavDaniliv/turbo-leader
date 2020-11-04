@@ -1,0 +1,308 @@
+# Translation of Plugins - Simply Exclude - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Simply Exclude - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-03-09 14:35:27+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Simply Exclude - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "http://www.codehooligans.com"
+msgstr "http://www.codehooligans.com"
+
+#. Author of the plugin/theme
+msgid "Paul Menard"
+msgstr "Paul Menard"
+
+#. Description of the plugin/theme
+msgid "Provides an interface to selectively exclude/include all Taxonomies, Post Types and Users from the 4 actions used by WordPress. is_front, is_archive, is_search, is_feed. Also provides access to some of the common widgets user like tag cloud and categories listings."
+msgstr "Предоставляет интерфейс для выборочного исключения/включения всех таксономий, типов записей и пользователей из 4 действий, используемых в WordPress: is_front, is_archive, is_search, is_feed. Также предоставляет доступ к некоторым виджетам, таким как облако меток и список рубрик."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.codehooligans.com/projects/wordpress/simply-exclude/"
+msgstr "http://www.codehooligans.com/projects/wordpress/simply-exclude/"
+
+#: simplyexclude.php:3122
+msgctxt "Options Page Title"
+msgid "Simply Exclude Help"
+msgstr "Помощь Simply Exclude"
+
+#: simplyexclude.php:3113
+msgid "Make a donation today"
+msgstr "Сделать пожертвование сегодня"
+
+#: simplyexclude.php:3110
+msgid "Show your support of this plugin by making a small donation to support future development. No donation amount too small."
+msgstr "Поддержите разработку плагина, сделав небольшое пожертвование. Нет слишком маленьких сумм."
+
+#: simplyexclude.php:3104
+msgid "Plugin Homepage"
+msgstr "Домашняя страница плагина"
+
+#: simplyexclude.php:3049
+msgid "Actions"
+msgstr "Действия"
+
+#: simplyexclude.php:3048
+msgid "Description of Functionality"
+msgstr "Описание функциональности"
+
+#: simplyexclude.php:3047
+msgid "Plugin Name"
+msgstr "Название плагина"
+
+#: simplyexclude.php:3031
+msgid "Reload Configuration"
+msgstr "Перезагрузить конфигурацию"
+
+#: simplyexclude.php:3023
+msgid ""
+"Version 2.0 and 2.0.1 of the plugins incorrectly converted your previous configuration of excluded items into a new format. You can use this \n"
+"\t\t\toption to force a reload of your Simply Exclude configuration into the new format."
+msgstr ""
+"Версии 2.0 и 2.0.1 плагина неправильно преобразовали вашу предыдущую конфигурацию исключенных элементов в новый формат. Вы можете использовать эту \n"
+"\t\t\tопцию для принудительной перезагрузки конфигурации Simply Exclude в новый формат."
+
+#: simplyexclude.php:3020
+msgid "Your Simply Excluded has successfully been reloaded."
+msgstr "Ваш Simply Excluded был успешно перезагружен."
+
+#: simplyexclude.php:2870
+msgid "For example you have 10 Pages and want to hide 3 specific Pages from Search. New Pages will be visible."
+msgstr "Например, у вас есть 10 страниц, но вы хотите скрыть 3 определенные страницы из поиска. Новые страницы будут видны."
+
+#: simplyexclude.php:2869
+msgid "For example you have 10 Pages but only always want to include only 4 Pages shown in a Search. New Pages are automatically hidden."
+msgstr "Например, у вас есть 10 страниц, но вы хотите чтобы в поиске всегда отображалось только 4 страницы. Новые страницы будут автоматически скрыты."
+
+#: simplyexclude.php:2867
+msgid "Set the checkbox to exclude the Post Type items from the action"
+msgstr "Отметьте переключатель, чтобы исключить элементы этого типа записей из действия"
+
+#: simplyexclude.php:2861
+msgid "For example you have 100 categories but want to hide 3 from being seen. New tags will be visible."
+msgstr "Например, у вас есть 100 рубрик, но вы хотите 3 скрыть. Новые рубрики будут видны."
+
+#: simplyexclude.php:2860
+msgid "For example you have 100 tags but only always want 3 to be used on the home page. New tags added are automatically hidden."
+msgstr "Например, у вас есть 100 меток, но вы хотите чтобы на главной странице всегда отображалось только 3. Новые метки будут автоматически скрыты."
+
+#: simplyexclude.php:2858
+msgid "Set the checkbox to exclude the Taxonomy items from the action"
+msgstr "Отметьте переключатель, чтобы исключить элементы таксономии из действия"
+
+#: simplyexclude.php:2851
+msgid "For example you have 3 Users but want to hide Posts from one User in the Archives. New Users will by visible."
+msgstr "Например, у вас есть 3 пользователя, но вы хотите скрыть записи одного из них со страниц архивов. Записи новых пользователей будут видны."
+
+#: simplyexclude.php:2850
+msgid "For example you have 3 Users but always want to show Posts for only 1  specific User in the Archives. New Users are automatically hidden."
+msgstr "Например, у вас есть 3 пользователя, но вы хотите чтобы на страницах архивов всегда отображались записи только одного определенного пользователя. Записи новых пользователей будут автоматически скрыты."
+
+#: simplyexclude.php:2849 simplyexclude.php:2859 simplyexclude.php:2868
+msgid "So what is the difference between <strong>Include only</strong> and <strong>Exclude</strong>?"
+msgstr "Так в чем разница между <strong>Включить только</strong> и <strong>Исключить</strong>?"
+
+#: simplyexclude.php:2848
+msgid "Set the checkbox to exclude the User items from the action"
+msgstr "Отметьте переключатели, чтобы исключить пользователей из действия"
+
+#: simplyexclude.php:1941
+msgid "Exclude from Post Archives Widget."
+msgstr "Исключить из виджета «Архивы»."
+
+#: simplyexclude.php:1937
+msgid "Widget: Archives"
+msgstr "Виджет: Архивы"
+
+#: simplyexclude.php:1923
+msgid "Exclude from WordPress Pages Widget. Child pages are automatically excluded if the parent is Excluded."
+msgstr "Исключить из виджета «Страницы». Дочерние страницы исключенных страниц будут автоматически исключены."
+
+#: simplyexclude.php:1919
+msgid "Widget: Pages"
+msgstr "Виджет: Страницы"
+
+#: simplyexclude.php:1873
+msgid "Visibility on the Post Type archive."
+msgstr "Видимость в архиве этого типа записей."
+
+#: simplyexclude.php:1856
+msgid "Visibility on the front/main page. Set 'Include All' to have this Post Type displayed in addition to the normal Posts."
+msgstr "Видимость на главной странице и странице записей. Отметьте «Включить все», чтобы элементы этого типа записей отображались в дополнение к обычным записям."
+
+#: simplyexclude.php:1826
+msgid "Exclude from WordPress Tag Cloud Widget."
+msgstr "Исключить из виджета «Облако меток»."
+
+#: simplyexclude.php:1822
+msgid "Widget: Tag Cloud"
+msgstr "Виджет: Облако меток"
+
+#: simplyexclude.php:1805
+msgid "Exclude from WordPress List Category Widget."
+msgstr "Исключить из виджета «Рубрики»."
+
+#: simplyexclude.php:1801
+msgid "Widget: Categories"
+msgstr "Виджет: Рубрики"
+
+#: simplyexclude.php:1787 simplyexclude.php:1890 simplyexclude.php:2024
+msgid "Visibility in RSS/RSS2/Atom feeds."
+msgstr "Видимость в RSS/RSS2/Atom лентах."
+
+#: simplyexclude.php:1783 simplyexclude.php:1886 simplyexclude.php:2020
+msgid "Feeds"
+msgstr "Ленты"
+
+#: simplyexclude.php:1769 simplyexclude.php:1907 simplyexclude.php:2006
+msgid "Visibility in search results."
+msgstr "Видимость в результатах поиска."
+
+#: simplyexclude.php:1765 simplyexclude.php:1903 simplyexclude.php:2002
+msgid "Searches"
+msgstr "Поиск"
+
+#: simplyexclude.php:1751 simplyexclude.php:1988
+msgid "Visibility on the archive of categories on the sidebar."
+msgstr "Видимость в архиве рубрик в боковой колонке."
+
+#: simplyexclude.php:1747 simplyexclude.php:1869 simplyexclude.php:1984
+msgid "Archives"
+msgstr "Архивы"
+
+#: simplyexclude.php:1734 simplyexclude.php:1970
+msgid "Visibility on the front/main page."
+msgstr "Видимость на главной странице и странице записей."
+
+#: simplyexclude.php:1730 simplyexclude.php:1852 simplyexclude.php:1966
+msgid "Front/Home"
+msgstr "Главная/Страница записей"
+
+#: simplyexclude.php:1145
+msgctxt "Simply Exclude"
+msgid "Simply Exclude"
+msgstr "Simply Exclude"
+
+#: simplyexclude.php:778 simplyexclude.php:787
+msgid "show"
+msgstr "показать"
+
+#: simplyexclude.php:682 simplyexclude.php:717 simplyexclude.php:752
+msgid "All Loops"
+msgstr "Все циклы"
+
+#: simplyexclude.php:679 simplyexclude.php:714 simplyexclude.php:749
+msgid "Main Loop Only"
+msgstr "Только основной цикл"
+
+#: simplyexclude.php:674 simplyexclude.php:709 simplyexclude.php:744
+msgid "The Simply-Exclude plugin was designed to only work with the main page query. But sometimes other plugins or your theme will effect how the main filtering works. So if you are having trouble attempting to filter categories from your home page you might want to try and set this option to 'All' and see if it corrects your issue."
+msgstr "Плагин Simply Exclude был разработан только для работы с основным запросом страницы. Но иногда другие плагины или ваша тема могут влиять на работу основной фильтрации. Поэтому, если у вас возникли проблемы при попытке фильтровать рубрики на главной странице, вы можете попробовать выбрать «Все циклы» и посмотреть, исправит ли это вашу проблему."
+
+#: simplyexclude.php:673 simplyexclude.php:708 simplyexclude.php:743
+msgid "Override query filtering for Main Loop Only or All Loops?"
+msgstr "Переопределить фильтрацию запросов только для основного цикла или для всех циклов?"
+
+#: simplyexclude.php:667 simplyexclude.php:702 simplyexclude.php:737
+msgid "Query Filtering"
+msgstr "Фильтрация запросов"
+
+#: simplyexclude.php:629
+msgid "Show the extra columns on the listing and the edit form?"
+msgstr "Показать дополнительные колонки в списке пользователей и на странице редактирования пользователя?"
+
+#: simplyexclude.php:598
+msgid "Show the extra columns on the Post Type listing and the Post Type edit form?"
+msgstr "Показать дополнительные колонки в списке элементов этого типа записей и в форме редактирования элемента этого типа записей?"
+
+#: simplyexclude.php:574 simplyexclude.php:605 simplyexclude.php:636
+msgid "Hide"
+msgstr "Скрыть"
+
+#: simplyexclude.php:571 simplyexclude.php:602 simplyexclude.php:633
+msgid "Show"
+msgstr "Показать"
+
+#: simplyexclude.php:567
+msgid "Show the extra columns on the Taxonomy listing and the Taxonomy edit form?"
+msgstr "Показать дополнительные колонки в списке элементов таксономии и в форме редактирования элемента таксономии?"
+
+#: simplyexclude.php:562 simplyexclude.php:593 simplyexclude.php:624
+msgid "Show/Hide"
+msgstr "Показать/Скрыть"
+
+#: simplyexclude.php:526
+msgid "Active?"
+msgstr "Активировать плагин для пользователей?"
+
+#: simplyexclude.php:492
+msgid "Is this Post Type Active? This is sometimes convenient instead of unsetting all Post Type items."
+msgstr "Активировать плагин для этой типа записей? Это иногда удобнее, чем изменять все условия для элементов этого типа записей."
+
+#: simplyexclude.php:465 simplyexclude.php:499 simplyexclude.php:533
+msgid "Disabled"
+msgstr "Отключен"
+
+#: simplyexclude.php:458
+msgid "Is this Taxonomy active? This is sometimes convenient instead of unsetting all Taxonomy terms."
+msgstr "Активировать плагин для этой таксономии? Это иногда удобнее, чем изменять все условия для всех элементов таксономии."
+
+#: simplyexclude.php:453 simplyexclude.php:462 simplyexclude.php:487
+#: simplyexclude.php:496 simplyexclude.php:521 simplyexclude.php:530
+msgid "Active"
+msgstr "Активен"
+
+#: simplyexclude.php:373 simplyexclude.php:377
+msgid "Include All"
+msgstr "Включить все"
+
+#: simplyexclude.php:325 simplyexclude.php:368 simplyexclude.php:421
+#: simplyexclude.php:2851 simplyexclude.php:2861 simplyexclude.php:2870
+msgid "Exclude"
+msgstr "Исключить"
+
+#: simplyexclude.php:324 simplyexclude.php:367 simplyexclude.php:420
+#: simplyexclude.php:2850 simplyexclude.php:2860 simplyexclude.php:2869
+msgid "Include only"
+msgstr "Включить только"
+
+#: simplyexclude.php:308 simplyexclude.php:350 simplyexclude.php:404
+msgid "Inclusion/Exclusion"
+msgstr "Включение/Исключение"
+
+#: simplyexclude.php:307 simplyexclude.php:349 simplyexclude.php:403
+msgid "Description "
+msgstr "Описание"
+
+#: simplyexclude.php:306 simplyexclude.php:348 simplyexclude.php:402
+msgid "Action Name"
+msgstr "Имя действия"
+
+#: simplyexclude.php:122
+msgid "Settings"
+msgstr "Настройки"
+
+#: simplyexclude.php:80 simplyexclude.php:2998
+msgid "Users"
+msgstr "Пользователи"
+
+#: simplyexclude.php:79
+msgid "Post Types"
+msgstr "Типы записей"
+
+#: simplyexclude.php:78
+msgid "Taxonomies"
+msgstr "Таксономии"
+
+#. #-#-#-#-#  tmp-simply-exclude.pot (Simply Exclude 2.0.6.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: simplyexclude.php:42 simplyexclude.php:769 simplyexclude.php:778
+#: simplyexclude.php:787
+msgid "Simply Exclude"
+msgstr "Simply Exclude"

@@ -1,0 +1,902 @@
+/* helpers/align.css */
+
+.align {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* helpers/grid.css */
+
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 768px;
+  max-width: 48rem;
+  width: 90%;
+}
+
+/* layout/base.css */
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  min-height: 100%;
+}
+
+/* vendor/ui-accordion.css */
+
+.ui-accordion {
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+
+.ui-accordion-header {
+  background-color: #981f32;
+  color: #fff;
+  cursor: pointer;
+  margin: 0;
+  padding: 4px 8px;
+  padding: 0.25rem 0.5rem;
+}
+
+.ui-accordion-header-icon {
+  background-image: url('https://cdn.rawgit.com/marcobiedermann/playground/master/ui/accordion/jquery-ui-accordion/source/assets/images/accordion.svg');
+  background-size: 100%;
+  display: inline-block;
+  height: 12px;
+  height: 0.75rem;
+  margin-right: 8px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+  width: 12px;
+  width: 0.75rem;
+}
+
+.ui-accordion-header-icon.ui-icon-triangle-1-s {
+  background-position: 0 -36px;
+}
+
+.ui-accordion-content {
+  background-color: #fff;
+  padding: 8px;
+  padding: 0.5rem;
+}
+
+.ui-accordion-content + .ui-accordion-header {
+  margin-top: 8px;
+  margin-top: 0.5rem;
+}
+
+
+.callout.right{
+
+	background-color:#ffffff;
+
+	border:2px solid transparent;
+
+	border-color:#efefef #efefef #efefef #40a8ed;
+
+	color:#40a8ed;
+
+	text-align:left;
+
+	padding:5px;
+
+}
+
+.acc-group .content{
+
+	display: flex;
+
+}
+
+
+
+
+
+.acc-group .span3,
+
+.acc-group .span4,
+
+.acc-group .span5,
+
+.acc-group .span6,
+
+.acc-group .span7,
+
+.acc-group .span8{
+
+	position: relative;
+
+	padding: 10px;
+
+}
+
+.acc-group .span4{
+
+	text-align: center;
+
+}
+
+.acc-group .um-message-btn{
+
+	display: block !important;
+
+	margin-top: 5px !important;
+
+}
+
+.acc-group .client_avatar{
+
+	text-align: center;
+
+    margin-bottom: 5px;
+
+    height: 250px;
+
+    overflow: hidden;
+
+    padding: 2px;
+
+    margin: -1px 0 0 -1px;
+
+}
+
+.acc-group .client_avatar img{
+
+    border: 1px solid #43B4F9;
+
+}
+
+.acc-group table{
+
+	margin:auto;
+
+	width: 100%;
+
+}
+
+.acc-group table tr:nth-child(odd) td{
+
+	background: #ECF0F1;
+
+}
+
+.acc-group table tr td:first-child{
+
+	font-weight: bold;
+
+	border-left: 1px solid #e2e2e2;
+
+}
+
+.acc-group table tr:first-child td{
+
+	border-top: 1px solid #e2e2e2;
+
+}
+
+.acc-group table td{
+
+	border-right:1px solid #e2e2e2;
+
+	border-bottom:1px solid #e2e2e2;
+
+	padding-right: 5px;
+
+	padding-left: 5px;
+
+}
+
+.acc-group table tr:hover>td,
+
+.acc-group table tr:hover>td a{
+
+    background: #009FDD;
+
+    color: white;
+
+}
+
+.acc-group .note-buttons{
+
+	text-align: left;
+
+}
+
+.acc-group .note-buttons .fa{
+
+	margin-right: 0;
+
+}
+
+.acc-group .note-container textarea{
+
+    padding: 5px;
+
+}
+
+.acc-group .note-container div{
+
+	font-size:12px;
+
+    text-align: left;
+
+    display: block;
+
+}
+
+.acc-group .note-container textarea[disabled="disabled"]{
+
+	border-color:white;
+
+}
+
+.acc-group .note-buttons .note-redactor,
+
+.acc-group .note-buttons .note-cancel,
+
+.acc-group .note-buttons .note-save{
+
+	display: none;
+
+}
+
+.acc-group .note-buttons .note-redactor.active,
+
+.acc-group .note-buttons .note-cancel.active,
+
+.acc-group .note-buttons .note-save.active{
+
+	display: inline-block;
+
+    padding: 10px 27px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.acc-group .content .clientInfo-left{
+
+	float:left;
+
+	width:28%;
+
+	position: relative;
+
+	margin-right: 2%;
+
+}
+
+.acc-group .content .clientInfo-right{
+
+	float:left;
+
+	width:70%;
+
+	position: relative;
+
+}
+
+.acc-group .content .clientInfo-left .um-message-btn{
+
+	display: block !important;
+
+}
+
+.acc-group .content .clientInfo-left .client_avatar{
+
+	text-align: center;
+
+    margin-bottom: 15px;
+
+}
+
+.acc-group .content .clientInfo-left .client_avatar img{
+
+    border: 1px solid #43B4F9;
+
+}
+
+.acc-group .content .clientInfo-right div{
+
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+
+} 
+
+.accordion .accordion-title span .user_checkbox{
+
+	margin:12px 5px 0 10px;
+
+	float: left;
+
+	width: 14px;
+
+    height: 14px;
+
+    background: white;
+
+    box-shadow: inset 0px 0px 0px 1px #03598C;
+
+}
+
+.accordion .accordion-title span .user_checkbox:hover{
+
+	cursor: pointer;
+
+}
+
+.accordion .accordion-title span .user_checkbox.checked div{
+
+    width: 8px;
+
+    height: 8px;
+
+    background: #03598C;
+
+    margin: 3px;
+
+}
+
+.accordion .accordion-title span .icon{
+
+	margin:0 5px;
+
+}
+
+.accordion-title .status-icons{
+
+	float:right;
+
+	margin-top: 4px;
+
+}
+
+.accordion-title .status-icons .icon{
+
+	margin:0;
+
+    color: #ffffff !important;
+
+    background-color: #03598C;
+
+    border-color: #3498db;
+
+    width: 22px;
+
+    height: 22px;
+
+    line-height: 22px;
+
+    margin-top: 2px;
+
+    border-color: white;
+
+    border-width: 2px;
+
+}
+
+.accordion-title .status-icons .icon.active{
+
+	background-color: rgb(0, 222, 7);
+
+}
+
+.accordion-title .user-titleName{
+
+	float:left;
+
+}
+
+.accordion-title .user-titleName .icon{
+
+	margin-top:-2px !important;
+
+}
+
+.accordion-title .user-regDate{
+
+    float: left;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    padding: 0px 4px;
+
+    background: #03598C;
+
+    border-radius: 3px;
+
+    border: 2px solid white;
+
+    margin: 3px 5px 0 0;
+
+    color:white;
+
+}
+
+.acc-group .accordion-title:hover{
+
+	background-color: #B5E3FF;
+
+}
+
+.acc-group.checked .accordion-title{
+
+	background: #f7be68;
+
+}
+
+.loader-bar{
+
+    width: 75px;
+
+    height: 75px;
+
+    background: black;
+
+    position: relative;
+
+    border-radius: 50px;
+
+    overflow: hidden;
+
+    margin: auto;
+
+    display: none;
+
+}
+
+.loader-bar.active{
+
+	display: block;
+
+}
+
+.loader{
+
+	background: url(/preloader.gif) 0 0 no-repeat;
+
+	width: 69px;
+
+    height: 80px;
+
+}
+
+.loader-bar .loader{
+
+	margin:auto;
+
+	position: absolute;
+
+    top: -6px;
+
+    left: 5px;
+
+
+
+}
+
+.loader-bar .text{
+
+	position: absolute;
+
+	bottom: 4px;
+
+    text-align: center;
+
+    width: 100%;
+
+    color: #B89436;
+
+    font-size: 11px;
+
+}
+
+.big-loader-down{
+
+	position: relative;
+
+	display: flex;
+
+	margin-bottom: 15px;
+
+    margin-top: 10px;
+
+}
+
+.big-loader-down .progressbar{
+
+	position: absolute;
+
+    top: 23px;
+
+}
+
+.big-loader-down .loader-bar{
+
+    box-shadow: 0px 1px 6px 0px black;
+
+    border: 3px solid #43B4F9;
+
+}
+
+.load-button{
+
+	width: 75px;
+
+    height: 75px;
+
+    background: #03598C;
+
+    position: relative;
+
+    border-radius: 50px;
+
+    overflow: hidden;
+
+    margin: auto;
+
+    display: none;
+
+    box-shadow: 0px 1px 6px 0px black;
+
+    border: 3px solid #43B4F9;
+
+}
+
+.load-button.active{
+
+	display: block;
+
+}
+
+.load-button.disactive{
+
+    background: #D2E7EC;
+
+}
+
+.load-button .icon{
+
+    border: none;
+
+    line-height: 100px;
+
+    font-size: 40px;
+
+    color: white;
+
+}
+
+.load-button .text{
+
+    text-align: center;
+
+    width: 100%;
+
+    position: absolute;
+
+    top: 25px;
+
+    color: white;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    font-size: 13px;
+
+}
+
+.load-button.active:hover{
+
+	background: #003554;
+
+	cursor: pointer;
+
+}
+
+.load-button.disactive:hover{
+
+	background: #D2E7EC;
+
+	cursor: auto;
+
+}
+
+.panel select{
+
+	height: 42px;
+
+    padding: 5px;
+
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12{
+
+	padding-left: 0;
+
+}
+
+
+
+#register-company-form{
+
+	overflow-y: scroll;
+
+	background-color: #ffffff !important;
+
+    position: fixed;
+
+	border-left: 1px solid #004973;
+
+    transition-duration: 1s;
+
+    top: 0px;
+
+    z-index:55;
+
+}
+
+#register-company-form div[data-key="referer_id"]{
+
+	display:none;
+
+}
+
+
+
+.closeform{
+
+	position: absolute;
+
+    top: 10px;
+
+    left:0;
+
+    
+
+}
+
+.closeform .vc_icon_element-icon{
+
+	color:#434343 !important;
+
+}
+
+.closeform .vc_icon_element-inner{
+
+	border-color: #434343 !important;
+
+}
+
+
+
+
+
+@media screen and (min-width:800px) {
+
+ 
+
+	#register-company-form{		
+
+	    width: 25%;
+
+	    height: 100%;
+
+	    right: -26%;	
+
+	}
+
+
+
+	#register-company-form.active {
+
+	  right: 0;
+
+	  transition-property: right;
+
+	  transition-duration: 1s;
+
+	}
+
+
+
+	.closeform{
+
+	    left:10px;	    
+
+	}
+
+
+
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:799px) {
+
+ 
+
+	#register-company-form{
+
+	    width: 40%;
+
+	    height: 100%;
+
+	    right: -41%;
+
+	
+
+	}
+
+
+
+	#register-company-form.active {
+
+	  right: 0;
+
+	  transition-property: right;
+
+	  transition-duration: 1s;
+
+	}
+
+
+
+}
+
+
+
+@media screen and (min-width:100px) and (max-width:599px) {
+
+
+
+	#register-company-form{
+
+	    width: 100%;
+
+	    height: 100%;
+
+	    right: -100%;
+
+	
+
+	}
+
+
+
+	#register-company-form.active {
+
+	  right: 0;
+
+	  transition-property: right;
+
+	  transition-duration: 1s;
+
+	}
+
+	.wpb_wrapper.vc_figure{
+
+		display: none;
+
+	}
+
+
+
+}
+
+.button.three_d{
+
+	padding: 14px 20px;
+
+}
+
+
+
+.social-box{
+
+	text-align: center;
+
+	margin-top: 5px;
+
+}
+
+.social-box .s-icon{
+
+    background: #3B5999;
+
+    width: 25px;
+
+    height: 25px;
+
+    display: inline-block;
+
+    color: white;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    line-height: 25px;
+
+    margin: 0 2px;
+
+    margin-bottom: 5px;
+
+}
+
+
+
+#export-contacts-btn,
+
+#cp-link-export{
+
+	display: none;
+
+	text-align: center;
+
+}
+
+#export-contacts-btn.active,
+
+#cp-link-export.active{
+
+	display: inline-block;
+
+}
+
+#export-contacts-btn .spinner{
+
+	background: url(/wp-content/themes/Richer/pics/spinner.gif) 0 0 no-repeat;
+
+    width: 12px;
+
+    height: 12px;
+
+    float: left;
+
+    margin-right: 5px; 
+
+    display: none;
+
+}
+
+#export-contacts-btn.loading .spinner{
+
+	display: inline-block;
+
+}
+
+#export-contacts-btn.loading .fa-angle-double-up{
+
+	display: none;
+
+} 
